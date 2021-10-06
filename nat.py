@@ -1,3 +1,6 @@
+# 🤖 Abraham Baltazar Garcia Moreno 🐍
+
+
 import json
 from typing import Dict
 
@@ -135,6 +138,12 @@ def read_object(objects):
                         for i in service_group:
                             print(i)
     print(end='\n\n')
+
+    # Queda pendiente obtener los servicios de la lista service_objects_list. 
+    # Queda pendiente los servicios de server groups, recordar que server groups es un grupo de
+    # de servicios y debemos encontrar los servicios que sean de ese grupo. (Validacion)
+
+    # * Mejora de codigo *
    
 
 
