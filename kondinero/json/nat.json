@@ -1,0 +1,6453 @@
+[
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-730f-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "SSO agent authentication NAT policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewall SSO Agents"
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "LAN Interface IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "SonicWALL SSO Agents"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "c4521b02-c63f-b655-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "Stack NAT Policy For HF",
+            "inbound": "any",
+            "outbound": "X0",
+            "source": {
+                "name": "X0 IP"
+            },
+            "translated_source": {
+                "name": "HF Backup X0 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Idle HF"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "93613e2c-f127-a721-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "Stack NAT Policy For HF",
+            "inbound": "any",
+            "outbound": "X0",
+            "source": {
+                "name": "X0 IP"
+            },
+            "translated_source": {
+                "name": "HF Primary X0 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Idle HF"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "df3f95bd-8a06-0900-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "Management NAT Policy For HF",
+            "inbound": "X0",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "HF Backup X0 IP"
+            },
+            "translated_destination": {
+                "name": "X0 IP"
+            },
+            "service": {
+                "name": "SNMP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "af2ca1e5-5abe-cb4c-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy For HF",
+            "inbound": "X0",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "HF Primary X0 IP"
+            },
+            "translated_destination": {
+                "name": "X0 IP"
+            },
+            "service": {
+                "name": "SNMP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "baed1d50-0a56-83e3-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X4",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTPS Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "a92c8471-dfb8-10b2-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X3",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTPS Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "2215c362-5162-4c94-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X2",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTPS Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "a631606f-0ac4-77ea-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X1",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X1 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTPS Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e5831e4-7a66-c0a2-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0",
+            "outbound": "X0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X0 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTPS Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "80298338-371f-b439-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X8",
+            "outbound": "X8",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X8 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTPS Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "ee0531ff-7843-2c5e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X8",
+            "outbound": "X8",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X8 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTP Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "ef14465a-f9bc-7425-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X8",
+            "outbound": "X8",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X8 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "a6021572-ca76-0f75-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "IKE NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "X3 IP"
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "IKE"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "3f3bada0-be57-d265-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "IKE NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "IKE"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "4279f9ed-97ff-b2f4-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "IKE NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "WAN Interface IP"
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "IKE"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "e436ebd8-3f00-6c99-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "IKE NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "WAN Interface IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "IKE"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "569a416b-eb16-fc58-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "MGMT",
+            "outbound": "MGMT",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "MGMT IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SSH Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "4ab66f66-1138-e7a7-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "MGMT",
+            "outbound": "MGMT",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "MGMT IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTPS Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "190e2c53-bfdd-3017-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "MGMT",
+            "outbound": "MGMT",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "MGMT IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTP Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "f13cd110-d239-15f1-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X7",
+            "outbound": "X7",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X7 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "c09479cd-4b3e-3f65-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X6",
+            "outbound": "X6",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X6 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "932e3649-9e90-e09e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0",
+            "outbound": "X0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X0 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SNMP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "84ccd52b-1ead-0f82-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X4",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SNMP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "ad96bcc2-b58b-e7dd-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X3",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SNMP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "9fd4c9a7-d317-65dc-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X2",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SNMP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "6f079950-410a-7b82-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "IKE NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "X2 IP"
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "IKE"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "dc7e4efd-e6bc-bc64-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "IKE NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "IKE"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "038d6527-ec40-5ceb-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0:V100",
+            "outbound": "X0:V100",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X0:V100 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "accc0949-96df-b734-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X4",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTP Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "ef739717-b88d-3b19-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X5",
+            "outbound": "X5",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X5 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "cf9bc735-bc03-fcbb-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X3",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTP Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "89e817c0-6d77-117e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X4",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0a4e5f48-b0e6-8b01-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X3",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "415dc63c-8b70-6bb6-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X2",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "42452a61-b6f6-0800-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X1",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X1 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "b3db4909-f071-fa05-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X1",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X1 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTP Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "442b653e-2bb5-b1c9-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0",
+            "outbound": "X0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X0 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "4f07f1ee-8949-3723-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0",
+            "outbound": "X0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X0 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SSH Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "083f467b-83af-edb3-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0",
+            "outbound": "X0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X0 IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTP Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "986942c8-5063-0cc8-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto added NAT Policy for Rip",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "Rip"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "333886ca-4e39-9920-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X1 Default NAT Policy",
+            "inbound": "any",
+            "outbound": "X1",
+            "source": {
+                "group": "All Interface IP"
+            },
+            "translated_source": {
+                "name": "X1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "4730cd63-704b-beb0-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X2 Default NAT Policy",
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "group": "All Interface IP"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "682c295b-b8d9-fdab-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X3 Default NAT Policy",
+            "inbound": "any",
+            "outbound": "X3",
+            "source": {
+                "group": "All Interface IP"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "b141f8f4-e1f5-37d7-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X4 Default NAT Policy",
+            "inbound": "any",
+            "outbound": "X4",
+            "source": {
+                "group": "All Interface IP"
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0001-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "ChatBot Public"
+            },
+            "destination": {
+                "name": "ChatBot Public"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "name": "tcp_8085"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7315-0800-2cb8ed326080",
+            "name": "ServerIISLoopback",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "ServerIIS130Public"
+            },
+            "translated_destination": {
+                "name": "ServerIIS130Private"
+            },
+            "service": {
+                "name": "SEVERIIS"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7314-0800-2cb8ed326080",
+            "name": "ServerIIS",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "ServerIIS130Public"
+            },
+            "translated_destination": {
+                "name": "ServerIIS130Private"
+            },
+            "service": {
+                "name": "SEVERIIS"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7313-0800-2cb8ed326080",
+            "name": "NAT_HTTPS_SERVER_132.147.10.134",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X3",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.134-Nat"
+            },
+            "service": {
+                "name": "TCP_7443"
+            },
+            "translated_service": {
+                "name": "HTTPS"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7312-0800-2cb8ed326080",
+            "name": "NAT_SERVER_132.147.10.134",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X3",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.134-Nat"
+            },
+            "service": {
+                "name": "TCP_8090"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0074-0800-2cb8ed326080",
+            "name": "NAT_Observium",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Observium_Monitor"
+            },
+            "service": {
+                "name": "Observium_TCP"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0002-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "ChatBot Public"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "name": "tcp_8085"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0003-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "APIKondinero Public"
+            },
+            "translated_destination": {
+                "name": "APIKondinero Private"
+            },
+            "service": {
+                "name": "HTTPS"
+            },
+            "translated_service": {
+                "name": "HTTPS"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0073-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for test",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "test Public"
+            },
+            "destination": {
+                "name": "test Public"
+            },
+            "translated_destination": {
+                "name": "test Private"
+            },
+            "service": {
+                "group": "test Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0068-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for Calixta_Server",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "Calixta_Server Public"
+            },
+            "destination": {
+                "name": "Calixta_Server Public"
+            },
+            "translated_destination": {
+                "name": "Calixta_Server Private"
+            },
+            "service": {
+                "group": "Calixta_Server Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006f-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for TsPlus Server",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "TsPlus Server Public"
+            },
+            "destination": {
+                "name": "TsPlus Server Public"
+            },
+            "translated_destination": {
+                "name": "TsPlus Server Private"
+            },
+            "service": {
+                "group": "TsPlus Server Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0064-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for SFTP.26",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "SFTP.26 Public"
+            },
+            "destination": {
+                "name": "SFTP.26 Public"
+            },
+            "translated_destination": {
+                "name": "SFTP.26 Private"
+            },
+            "service": {
+                "group": "SFTP.26 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0060-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for Server_Kaspersky",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_Kaspersky Private"
+            },
+            "service": {
+                "group": "Server_Kaspersky Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0004-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "Loopback for CreditOne",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "CreditOne Public"
+            },
+            "destination": {
+                "name": "CreditOne Public"
+            },
+            "translated_destination": {
+                "name": "CreditOne Private"
+            },
+            "service": {
+                "group": "CreditOne Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0005-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot_ftp Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0006-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for FTP_10.254",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "FTP_10.250 Public"
+            },
+            "destination": {
+                "name": "FTP_10.250 Public"
+            },
+            "translated_destination": {
+                "name": "FTP_10.250 Private"
+            },
+            "service": {
+                "group": "FTP_10.254 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0007-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for ChatBot_ftp",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "ChatBot_ftp Public"
+            },
+            "destination": {
+                "name": "ChatBot_ftp Public"
+            },
+            "translated_destination": {
+                "name": "ChatBot_ftp Private"
+            },
+            "service": {
+                "group": "ChatBot_ftp Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0008-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for FTP_Yola",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "FTP_Yola Public"
+            },
+            "destination": {
+                "name": "FTP_Yola Public"
+            },
+            "translated_destination": {
+                "name": "FTP_Yola Private"
+            },
+            "service": {
+                "group": "FTP_Yola Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0009-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for Server_Push_250",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "Server_Push_250 Public"
+            },
+            "destination": {
+                "name": "Server_Push_250 Public"
+            },
+            "translated_destination": {
+                "name": "Server_Push_250 Private"
+            },
+            "service": {
+                "group": "Server_Push_250 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000a-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for Svr_132.147.10.52",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "Svr_132.147.10.52 Public"
+            },
+            "destination": {
+                "name": "Svr_132.147.10.52 Public"
+            },
+            "translated_destination": {
+                "name": "Svr_132.147.10.52 Private"
+            },
+            "service": {
+                "group": "Svr_132.147.10.52 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000b-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "Loopback for ChatBot",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "ChatBot Public"
+            },
+            "destination": {
+                "name": "ChatBot Public"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000c-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000d-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for FTP_250",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "FTP_250 Public"
+            },
+            "destination": {
+                "name": "FTP_250 Public"
+            },
+            "translated_destination": {
+                "name": "FTP_250 Private"
+            },
+            "service": {
+                "group": "FTP_250 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for IndexWebServer_250",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "IndexWebServer_250 Private"
+            },
+            "service": {
+                "group": "IndexWebServer_250 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000f-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for Server_132.147.10.15",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.15 Private"
+            },
+            "service": {
+                "group": "Server_132.147.10.15 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0010-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for Server_132.147.10.16",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.16 Private"
+            },
+            "service": {
+                "group": "Server_132.147.10.16 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0011-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Firewalled Subnets"
+            },
+            "translated_source": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "Server_132.147.10.13 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0013-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.14-Nat"
+            },
+            "service": {
+                "name": "TCP_9090"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006c-0800-2cb8ed326080",
+            "name": "Servicios de empleado Loop back",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "LAN REDES"
+            },
+            "translated_source": {
+                "name": "Exclusion_132.147.10.254"
+            },
+            "destination": {
+                "name": "Exclusion_132.147.10.254"
+            },
+            "translated_destination": {
+                "name": "172.15.22.16"
+            },
+            "service": {
+                "name": "2018_service"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0016-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "Wan_pool_X2_187.210.101.151"
+            },
+            "destination": {
+                "name": "Wan_pool_X2_187.210.101.151"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.15"
+            },
+            "service": {
+                "name": "TCP_8082"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0012-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot_ftp Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0014-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for 10.250_Push",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "Server_Push_250 Public"
+            },
+            "destination": {
+                "name": "Server_Push_250 Public"
+            },
+            "translated_destination": {
+                "name": "Server_Push_250 Private"
+            },
+            "service": {
+                "name": "TCP_80"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0015-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.21-Nat"
+            },
+            "service": {
+                "name": "HTTP"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0017-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for APIKondinero",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "APIKondinero Public"
+            },
+            "destination": {
+                "name": "APIKondinero Public"
+            },
+            "translated_destination": {
+                "name": "APIKondinero Private"
+            },
+            "service": {
+                "group": "APIKondinero Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0018-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0019-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for 132.147.10.11_MovilApp",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "132.147.10.11_MovilApp Public"
+            },
+            "destination": {
+                "name": "132.147.10.11_MovilApp Public"
+            },
+            "translated_destination": {
+                "name": "132.147.10.11_MovilApp Private"
+            },
+            "service": {
+                "group": "132.147.10.11_MovilApp Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-001a-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.23-Nat"
+            },
+            "service": {
+                "group": "Server_132.147.10.23 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-001b-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.196"
+            },
+            "service": {
+                "group": "HYPERFILE_196 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-001c-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "Wan_pool_X2_187.210.101.150"
+            },
+            "destination": {
+                "name": "Wan_pool_X2_187.210.101.150"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.250-Nat"
+            },
+            "service": {
+                "group": "Server_132.147.10.250 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-001d-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.250-Nat"
+            },
+            "service": {
+                "group": "Server_132.147.10.250 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-001e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "CCTV_192.168.20.35"
+            },
+            "service": {
+                "group": "CCTV_20.35 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-001f-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Loopback for server_132.147.10.13",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "server_132.147.10.13 Public"
+            },
+            "destination": {
+                "name": "server_132.147.10.13 Public"
+            },
+            "translated_destination": {
+                "name": "server_132.147.10.13 Private"
+            },
+            "service": {
+                "group": "server_132.147.10.13 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0020-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "Server_132.147.10.13 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0021-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.13-Nat"
+            },
+            "service": {
+                "group": "Server_132.147.10.13 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0022-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes_Calzada "
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.120"
+            },
+            "service": {
+                "group": "Server_132.147.10.120 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "656c56d7-09f4-1cec-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "SSL VPN NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "WAN Interface IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SSLVPN"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "c81081a9-ea98-e2a7-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "SSL VPN NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "LAN Interface IP"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SSLVPN"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0072-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "cert",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "test Private"
+            },
+            "translated_source": {
+                "name": "test Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "test Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0067-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Calixta",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Calixta_Server Private"
+            },
+            "translated_source": {
+                "name": "Calixta_Server Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Calixta_Server Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "TsPlus Server Private"
+            },
+            "translated_source": {
+                "name": "TsPlus Server Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "TsPlus Server Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0063-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Server FTP Security 10.26",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "SFTP.26 Private"
+            },
+            "translated_source": {
+                "name": "SFTP.26 Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "SFTP.26 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-005f-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "mobile kaspersky",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X3",
+            "source": {
+                "name": "Server_Kaspersky Private"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Server_Kaspersky Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0023-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "CreditOne",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "CreditOne Private"
+            },
+            "translated_source": {
+                "name": "CreditOne Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "CreditOne Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0024-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Documentos ChatBot FTP",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "ChatBot_ftp Private"
+            },
+            "translated_source": {
+                "name": "ChatBot_ftp Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "ChatBot_ftp Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0025-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Yolanda CR",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "FTP_Yola Private"
+            },
+            "translated_source": {
+                "name": "FTP_Yola Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "FTP_Yola Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0026-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Servidor Notificaciones",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Server_Push_250 Private"
+            },
+            "translated_source": {
+                "name": "Server_Push_250 Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Server_Push_250 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0027-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Server",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Svr_132.147.10.52 Private"
+            },
+            "translated_source": {
+                "name": "Svr_132.147.10.52 Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Svr_132.147.10.52 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0028-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Servidor FTP 250",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "FTP_250 Private"
+            },
+            "translated_source": {
+                "name": "FTP_250 Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "FTP_250 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0029-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Argox",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Server_132.147.10.15 Private"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Server_132.147.10.15 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002a-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Documentos ChatBot",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "ChatBot Private"
+            },
+            "translated_source": {
+                "name": "ChatBot Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "ChatBot Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002b-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Server AppMovil",
+            "priority": {
+                "manual": 106
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "132.147.10.11_MovilApp Private"
+            },
+            "translated_source": {
+                "name": "132.147.10.11_MovilApp Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "132.147.10.11_MovilApp Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002d-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "eset server",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X3",
+            "source": {
+                "name": "Server_132.147.10.16 Private"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Server_132.147.10.16 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002c-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Server 10.13",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "server_132.147.10.13 Private"
+            },
+            "translated_source": {
+                "name": "server_132.147.10.13 Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "server_132.147.10.13 Services"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0035-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X3",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.14-Nat"
+            },
+            "service": {
+                "name": "TCP_9090"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7311-0800-2cb8ed326080",
+            "name": "NAT_SERVER_132.147.10.27",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X3",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "132.147.10.27"
+            },
+            "service": {
+                "name": "TCP_4438"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0071-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "cert",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "test Public"
+            },
+            "translated_destination": {
+                "name": "test Private"
+            },
+            "service": {
+                "group": "test Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006b-0800-2cb8ed326080",
+            "name": "Servicios de empleado",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X7",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "Exclusion_132.147.10.254"
+            },
+            "translated_destination": {
+                "name": "172.15.22.16"
+            },
+            "service": {
+                "name": "2018_service"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0066-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Calixta",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "Calixta_Server Public"
+            },
+            "translated_destination": {
+                "name": "Calixta_Server Private"
+            },
+            "service": {
+                "group": "Calixta_Server Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006d-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "TsPlus Server Public"
+            },
+            "translated_destination": {
+                "name": "TsPlus Server Private"
+            },
+            "service": {
+                "group": "TsPlus Server Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0062-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Server FTP Security 10.26",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "SFTP.26 Public"
+            },
+            "translated_destination": {
+                "name": "SFTP.26 Private"
+            },
+            "service": {
+                "group": "SFTP.26 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0040-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "Wan_pool_X2_187.210.101.151"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.15"
+            },
+            "service": {
+                "name": "TCP_8082"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003d-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "Argox",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.15 Private"
+            },
+            "service": {
+                "group": "Server_132.147.10.15 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-005e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "mobile kaspersky",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_Kaspersky Private"
+            },
+            "service": {
+                "group": "Server_Kaspersky Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002e-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "CreditOne",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "CreditOne Public"
+            },
+            "translated_destination": {
+                "name": "CreditOne Private"
+            },
+            "service": {
+                "group": "CreditOne Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002f-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot_ftp Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0030-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Aplicacion",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "APIKondinero Public"
+            },
+            "translated_destination": {
+                "name": "APIKondinero Private"
+            },
+            "service": {
+                "name": "HTTP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0031-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "FTP",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "FTP_10.250 Public"
+            },
+            "translated_destination": {
+                "name": "FTP_10.250 Private"
+            },
+            "service": {
+                "group": "FTP_10.254 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0032-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "FTP_10.250 Public"
+            },
+            "translated_destination": {
+                "name": "FTP_10.250 Private"
+            },
+            "service": {
+                "group": "FTP_10.254 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0033-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Documentos ChatBot FTP",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "ChatBot_ftp Public"
+            },
+            "translated_destination": {
+                "name": "ChatBot_ftp Private"
+            },
+            "service": {
+                "group": "ChatBot_ftp Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0034-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Yolanda CR",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "FTP_Yola Public"
+            },
+            "translated_destination": {
+                "name": "FTP_Yola Private"
+            },
+            "service": {
+                "group": "FTP_Yola Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0036-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Servidor Notificaciones",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "Server_Push_250 Public"
+            },
+            "translated_destination": {
+                "name": "Server_Push_250 Private"
+            },
+            "service": {
+                "group": "Server_Push_250 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0037-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Server",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "Svr_132.147.10.52 Public"
+            },
+            "translated_destination": {
+                "name": "Svr_132.147.10.52 Private"
+            },
+            "service": {
+                "group": "Svr_132.147.10.52 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0038-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "ChatBot Public"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0039-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "Documentos ChatBot",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "ChatBot Public"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003a-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ChatBot Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0042-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Server AppMovil",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "132.147.10.11_MovilApp Public"
+            },
+            "translated_destination": {
+                "name": "132.147.10.11_MovilApp Private"
+            },
+            "service": {
+                "group": "132.147.10.11_MovilApp Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003b-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Servidor FTP 250",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "FTP_250 Public"
+            },
+            "translated_destination": {
+                "name": "FTP_250 Private"
+            },
+            "service": {
+                "group": "FTP_250 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003c-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Servidor FTP",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "IndexWebServer_250 Private"
+            },
+            "service": {
+                "group": "IndexWebServer_250 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "Wan_pool_X2_187.210.101.150"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.252"
+            },
+            "service": {
+                "name": "TCP_8080"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003f-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X3",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.21-Nat"
+            },
+            "service": {
+                "name": "HTTP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0041-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "132.147.10.11_MovilApp Private"
+            },
+            "service": {
+                "group": "132.147.10.11_MovilApp Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0043-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "manual": 137
+            },
+            "inbound": "X3",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.23-Nat"
+            },
+            "service": {
+                "group": "Server_132.147.10.23 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0044-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.196"
+            },
+            "service": {
+                "group": "HYPERFILE_196 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0045-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X3",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.250-Nat"
+            },
+            "service": {
+                "group": "Server_132.147.10.250 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0046-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X3",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "CCTV_192.168.20.35"
+            },
+            "service": {
+                "group": "CCTV_20.35 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004a-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "eset server",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X3 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.16 Private"
+            },
+            "service": {
+                "group": "Server_132.147.10.16 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0047-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Server 10.13",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "server_132.147.10.13 Public"
+            },
+            "translated_destination": {
+                "name": "server_132.147.10.13 Private"
+            },
+            "service": {
+                "group": "server_132.147.10.13 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0048-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "187.210.101.155_IP_WAN_X2"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "Server_132.147.10.13 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0049-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Server_132.147.10.13-Nat"
+            },
+            "service": {
+                "group": "Server_132.147.10.13 Services"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004b-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "ChatBot Public"
+            },
+            "translated_destination": {
+                "name": "ChatBot Private"
+            },
+            "service": {
+                "group": "ICMP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0079-0800-2cb8ed326080",
+            "name": "NAT a DC",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "manual": 146
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "132.147.10.0_Vlan110"
+            },
+            "translated_source": {
+                "name": "172.16.10.0_RedNat_GDL"
+            },
+            "destination": {
+                "name": "DC_172.17.10.0_VPN"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0075-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "Subnet50"
+            },
+            "translated_source": {
+                "name": "Subnet_132.147.10.0"
+            },
+            "destination": {
+                "name": "192.168.1.0 L2L CR"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0065-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "Subnet40"
+            },
+            "translated_source": {
+                "name": "Subnet30"
+            },
+            "destination": {
+                "name": "lancr_10.1.11"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0077-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "DataCenter_Remota"
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "172.16.10.0_RedNat_GDL"
+            },
+            "translated_destination": {
+                "name": "132.147.10.0_Vlan110"
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004c-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "group": "Grupo_Local_NatSalida"
+            },
+            "translated_source": {
+                "name": "187.210.101.150"
+            },
+            "destination": {
+                "name": "192.230.66.45_Sitio"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0069-0800-2cb8ed326080",
+            "name": "AX Servidor",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "X0:V100 Subnet"
+            },
+            "translated_source": {
+                "name": "192.168.30.244"
+            },
+            "destination": {
+                "name": "10.1.11.31_Servidor"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006a-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Origen a Red 172"
+            },
+            "translated_source": {
+                "name": "Subnet_132.147.10.0"
+            },
+            "destination": {
+                "name": "LAN_CR_172"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7318-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "NAT Auditoria"
+            },
+            "translated_source": {
+                "name": "X0 IP"
+            },
+            "destination": {
+                "name": "Auditoria_172.17.23.9"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7310-0800-2cb8ed326080",
+            "name": "Desarrollo",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "192.168.30.244"
+            },
+            "destination": {
+                "name": "10.1.11.31_Servidor"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7316-0800-2cb8ed326080",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "test_192.168.60.32"
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0059-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Server_132.147.10.14-Nat"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004d-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Aplicacion",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "APIKondinero Private"
+            },
+            "translated_source": {
+                "name": "APIKondinero Public"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Server_132.147.10.15"
+            },
+            "translated_source": {
+                "name": "Wan_pool_X2_187.210.101.151"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004f-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X3",
+            "source": {
+                "name": "Server_132.147.10.23-Nat"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0050-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Server_132.147.10.13-Nat"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0051-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "Server_132.147.10.120"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0052-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Server_132.147.10.120"
+            },
+            "translated_source": {
+                "name": "X2 Default Gateway"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0053-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Server_132.147.10.196"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0054-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X3",
+            "source": {
+                "name": "Server_132.147.10.250-Nat"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0055-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X2",
+            "source": {
+                "name": "Server_132.147.10.252"
+            },
+            "translated_source": {
+                "name": "Wan_pool_X2_187.210.101.150"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0056-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X0",
+            "source": {
+                "name": "Server_132.147.10.21-Nat"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0057-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X3",
+            "source": {
+                "name": "Server_132.147.10.21-Nat"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0058-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "X3",
+            "source": {
+                "name": "CCTV_192.168.20.35"
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "aa15555f-f4d8-bcc7-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added U0 Default NAT Policy",
+            "inbound": "any",
+            "outbound": "U0",
+            "source": {
+                "group": "All Interface IP"
+            },
+            "translated_source": {
+                "name": "U0 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "682c2295-5cc3-bf6d-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added U1 Default NAT Policy",
+            "inbound": "any",
+            "outbound": "U0",
+            "source": {
+                "group": "All Interface IP"
+            },
+            "translated_source": {
+                "name": "U1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "0e83cea5-8317-7317-0800-2cb8ed326080",
+            "name": "Prueba",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "L2L_Kondinero"
+            },
+            "translated_destination": {
+                "name": "L2L_KondineroNAT"
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0076-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "172.16.10.0_RedNat_GDL"
+            },
+            "translated_destination": {
+                "name": "132.147.10.0_Vlan110"
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "03a39424-5e66-c54e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X8 outbound NAT Policy for X4 WAN",
+            "inbound": "X8",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "d9848e7b-79e4-1240-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X8 outbound NAT Policy for X3 WAN",
+            "inbound": "X8",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "1596b612-e5da-9e34-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X8 outbound NAT Policy for X2 WAN",
+            "inbound": "X8",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "97491074-8c40-a64d-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X8 outbound NAT Policy for X1 WAN",
+            "inbound": "X8",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "b041e9b9-0e77-ca41-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0:V100 outbound NAT Policy for U1 WAN",
+            "inbound": "X0:V100",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "155f950b-146f-6dcf-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X7 outbound NAT Policy for U1 WAN",
+            "inbound": "X7",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "55511f59-35bf-1737-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X6 outbound NAT Policy for U1 WAN",
+            "inbound": "X6",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "82659d1c-bf5e-37f8-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X5 outbound NAT Policy for U1 WAN",
+            "inbound": "X5",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "ee4a73cd-0979-1c26-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0 outbound NAT Policy for U1 WAN",
+            "inbound": "X0",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "b0f3423e-1300-ac1f-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0:V100 outbound NAT Policy for U0 WAN",
+            "inbound": "X0:V100",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U0 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "4faa2631-d941-c6c3-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X7 outbound NAT Policy for U0 WAN",
+            "inbound": "X7",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U0 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "4a01cc00-67ba-dfd5-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X6 outbound NAT Policy for U0 WAN",
+            "inbound": "X6",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U0 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "da08251e-c74f-beec-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X5 outbound NAT Policy for U0 WAN",
+            "inbound": "X5",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U0 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "7e04dde6-0502-6070-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0 outbound NAT Policy for U0 WAN",
+            "inbound": "X0",
+            "outbound": "U0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "U0 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "8e3d8f3d-696e-9c25-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X7 outbound NAT Policy for X4 WAN",
+            "inbound": "X7",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "df4973aa-ce10-d4a2-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X7 outbound NAT Policy for X3 WAN",
+            "inbound": "X7",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "414b32db-68a2-78e1-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X7 outbound NAT Policy for X2 WAN",
+            "inbound": "X7",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "dfe24341-a675-08eb-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X7 outbound NAT Policy for X1 WAN",
+            "inbound": "X7",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "ec0da67b-35c2-b43a-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X6 outbound NAT Policy for X4 WAN",
+            "inbound": "X6",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "c9b1de24-d805-aeef-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X6 outbound NAT Policy for X3 WAN",
+            "inbound": "X6",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "14e8fd19-6ff1-5a02-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X6 outbound NAT Policy for X2 WAN",
+            "inbound": "X6",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "cb1c3f36-4618-ff2d-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X6 outbound NAT Policy for X1 WAN",
+            "inbound": "X6",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "5266cc3c-fe8d-2a29-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0 outbound NAT Policy for X4 WAN",
+            "inbound": "X0",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "56a88e2b-3114-be08-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0 outbound NAT Policy for X3 WAN",
+            "inbound": "X0",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "1b6bbc2a-4b8f-6a89-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0 outbound NAT Policy for X2 WAN",
+            "inbound": "X0",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "1950d522-7129-ef00-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0 outbound NAT Policy for X1 WAN",
+            "inbound": "X0",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "89da08a6-6a63-9dc7-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X5 outbound NAT Policy for X4 WAN",
+            "inbound": "X5",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "6c55853f-33f3-2ccf-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X5 outbound NAT Policy for X3 WAN",
+            "inbound": "X5",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "e91d76ec-712f-eb3c-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X5 outbound NAT Policy for X2 WAN",
+            "inbound": "X5",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "188a8353-5d27-f7ba-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X5 outbound NAT Policy for X1 WAN",
+            "inbound": "X5",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "15f57146-d5cc-86ef-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0:V100 outbound NAT Policy for X4 WAN",
+            "inbound": "X0:V100",
+            "outbound": "X4",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "94a53f15-5eee-c271-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0:V100 outbound NAT Policy for X3 WAN",
+            "inbound": "X0:V100",
+            "outbound": "X3",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X3 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "8cb0dc69-bf02-f3f2-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0:V100 outbound NAT Policy for X2 WAN",
+            "inbound": "X0:V100",
+            "outbound": "X2",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "83a1710b-0e0f-d9be-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Auto-added X0:V100 outbound NAT Policy for X1 WAN",
+            "inbound": "X0:V100",
+            "outbound": "X1",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "name": "X1 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "bbcf7654-f074-fcf7-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Default NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "uuid": "5af14a69-0e58-0f8e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0",
+            "outbound": "X0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "X0 Management IPv6 Addresses"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "group": "Ping6"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "uuid": "1aec655e-ef26-6f6e-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0",
+            "outbound": "X0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "X0 Management IPv6 Addresses"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTPS Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "uuid": "4c02c2bf-b100-5378-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "Management NAT Policy",
+            "inbound": "X0",
+            "outbound": "X0",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "X0 Management IPv6 Addresses"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "HTTP Management"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "uuid": "56e5c19c-5170-10f2-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "SSL VPN NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "WAN Interface IPv6 Addresses"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SSLVPN"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "uuid": "b80f3dc9-d846-09ef-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "SSL VPN NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "group": "LAN Interface IPv6 Addresses"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "name": "SSLVPN"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "uuid": "89f658f2-22a8-3ea9-0800-2cb8ed326080",
+            "name": "",
+            "enable": true,
+            "comment": "IPv6 Default NAT Policy",
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    }
+]

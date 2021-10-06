@@ -1,0 +1,5534 @@
+[
+    {
+        "ipv4": {
+            "name": "LAN Subnets",
+            "uuid": "9b9b3c30-59f7-f1d4-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X0:V100 Subnet"
+                    },
+                    {
+                        "name": "X8 Subnet"
+                    },
+                    {
+                        "name": "X7 Subnet"
+                    },
+                    {
+                        "name": "X5 Subnet"
+                    },
+                    {
+                        "name": "X0 Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Firewalled Subnets",
+            "uuid": "d033fe5a-0c1b-df35-0200-2cb8ed326080",
+            "address_group": {
+                "ipv4": [
+                    {
+                        "name": "AX Subnets"
+                    },
+                    {
+                        "name": "invitados Subnets"
+                    },
+                    {
+                        "name": "Lan_2_Lan Subnets"
+                    },
+                    {
+                        "name": "WLAN Subnets"
+                    },
+                    {
+                        "name": "DMZ Subnets"
+                    },
+                    {
+                        "name": "LAN Subnets"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "LAN Interface IP",
+            "uuid": "7e45b9bf-0c42-01b6-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X0:V100 IP"
+                    },
+                    {
+                        "name": "X8 IP"
+                    },
+                    {
+                        "name": "X7 IP"
+                    },
+                    {
+                        "name": "X5 IP"
+                    },
+                    {
+                        "name": "X0 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "WAN Subnets",
+            "uuid": "830f62e6-769e-a738-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "U1 Subnet"
+                    },
+                    {
+                        "name": "U0 Subnet"
+                    },
+                    {
+                        "name": "X4 Subnet"
+                    },
+                    {
+                        "name": "X3 Subnet"
+                    },
+                    {
+                        "name": "X2 Subnet"
+                    },
+                    {
+                        "name": "X1 Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "WAN Interface IP",
+            "uuid": "0764ba19-3fab-9093-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "U1 IP"
+                    },
+                    {
+                        "name": "U0 IP"
+                    },
+                    {
+                        "name": "X4 IP"
+                    },
+                    {
+                        "name": "X3 IP"
+                    },
+                    {
+                        "name": "X2 IP"
+                    },
+                    {
+                        "name": "X1 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "DMZ Subnets",
+            "uuid": "2fef0b83-4514-39f0-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "DMZ Interface IP",
+            "uuid": "e2be3707-d5d7-564c-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "WLAN Subnets",
+            "uuid": "f6e541ae-6bb2-4edf-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "WLAN Interface IP",
+            "uuid": "4ed157f0-159d-6dff-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All WAN IP",
+            "uuid": "271f626a-c903-a105-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "U1 IP"
+                    },
+                    {
+                        "name": "U0 IP"
+                    },
+                    {
+                        "name": "X4 IP"
+                    },
+                    {
+                        "name": "X3 IP"
+                    },
+                    {
+                        "name": "X2 IP"
+                    },
+                    {
+                        "name": "X1 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All Interface IP",
+            "uuid": "9fbe2cf3-df7f-a378-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "HF Backup X0 IP"
+                    },
+                    {
+                        "name": "HF Primary X0 IP"
+                    },
+                    {
+                        "name": "X25 IP"
+                    },
+                    {
+                        "name": "X24 IP"
+                    },
+                    {
+                        "name": "X23 IP"
+                    },
+                    {
+                        "name": "X22 IP"
+                    },
+                    {
+                        "name": "X21 IP"
+                    },
+                    {
+                        "name": "X20 IP"
+                    },
+                    {
+                        "name": "X19 IP"
+                    },
+                    {
+                        "name": "X18 IP"
+                    },
+                    {
+                        "name": "U1 IP"
+                    },
+                    {
+                        "name": "U0 IP"
+                    },
+                    {
+                        "name": "X0:V100 IP"
+                    },
+                    {
+                        "name": "MGMT IP"
+                    },
+                    {
+                        "name": "X17 IP"
+                    },
+                    {
+                        "name": "X16 IP"
+                    },
+                    {
+                        "name": "X15 IP"
+                    },
+                    {
+                        "name": "X14 IP"
+                    },
+                    {
+                        "name": "X13 IP"
+                    },
+                    {
+                        "name": "X12 IP"
+                    },
+                    {
+                        "name": "X11 IP"
+                    },
+                    {
+                        "name": "X10 IP"
+                    },
+                    {
+                        "name": "X9 IP"
+                    },
+                    {
+                        "name": "X8 IP"
+                    },
+                    {
+                        "name": "X7 IP"
+                    },
+                    {
+                        "name": "X6 IP"
+                    },
+                    {
+                        "name": "X5 IP"
+                    },
+                    {
+                        "name": "X4 IP"
+                    },
+                    {
+                        "name": "X3 IP"
+                    },
+                    {
+                        "name": "X2 IP"
+                    },
+                    {
+                        "name": "X1 IP"
+                    },
+                    {
+                        "name": "X0 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X0 Management IP",
+            "uuid": "5099999e-753d-5f3b-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "HF Backup X0 IP"
+                    },
+                    {
+                        "name": "HF Primary X0 IP"
+                    },
+                    {
+                        "name": "X0 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All SonicPoints",
+            "uuid": "110a87e2-c659-537e-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All Authorized Access Points",
+            "uuid": "cdd8429f-0579-0307-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Node License Exclusion List",
+            "uuid": "082d311f-753c-c9eb-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "RBL User White List",
+            "uuid": "ed177b2e-41f2-51fb-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "RBL User Black List",
+            "uuid": "0dda6e0e-4217-4817-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Public Mail Server Address Group",
+            "uuid": "c3183b6c-f929-1b60-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Default Trusted Relay Agent List",
+            "uuid": "355845b1-520e-59d4-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "McAfee Client AV Enforcement List",
+            "uuid": "ee3a6036-7053-554f-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Kaspersky Client AV Enforcement List",
+            "uuid": "b4ff4742-ac01-775d-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Excluded from Client AV Enforcement List",
+            "uuid": "47176f93-7243-0afe-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Default Geo-IP and Botnet Exclusion Group",
+            "uuid": "c7c27397-d14c-de8e-0200-2cb8ed326080",
+            "address_group": {
+                "ipv4": [
+                    {
+                        "name": "Firewalled Subnets"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "RADIUS Accounting Clients",
+            "uuid": "1ff9213a-21a6-a8b8-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Default SonicPoint ACL Allow Group",
+            "uuid": "96727f9d-4fcd-0219-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Default SonicPoint ACL Deny Group",
+            "uuid": "f1097edd-0d55-e0e6-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X1 Management IP",
+            "uuid": "f6e844d9-3ec6-347e-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X1 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X2 Management IP",
+            "uuid": "4ba3aee2-5dd8-3a9b-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X2 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X3 Management IP",
+            "uuid": "5c12d02c-95cd-b197-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X3 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X4 Management IP",
+            "uuid": "369e847f-9335-41e3-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X4 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X5 Management IP",
+            "uuid": "f737715e-20f4-9d8e-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X5 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X6 Management IP",
+            "uuid": "2e8927fe-77fb-8ca2-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X6 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X7 Management IP",
+            "uuid": "17e55341-7769-3d33-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X7 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X8 Management IP",
+            "uuid": "aed623f5-5062-75a8-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X8 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X9 Management IP",
+            "uuid": "f70cc9ae-d6a2-ae59-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X9 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X10 Management IP",
+            "uuid": "542bd9c8-f91a-99f1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X10 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X11 Management IP",
+            "uuid": "62799e8e-584a-991c-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X11 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X12 Management IP",
+            "uuid": "e5442970-c648-76cf-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X12 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X13 Management IP",
+            "uuid": "bb1bdc0b-1c9a-c473-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X13 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X14 Management IP",
+            "uuid": "64dc2eb8-7eb8-091d-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X14 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X15 Management IP",
+            "uuid": "c1b6bd4e-1fe8-c29a-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X15 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X16 Management IP",
+            "uuid": "ef58de04-c349-4f83-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X16 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X17 Management IP",
+            "uuid": "11e5db14-d8a2-61cc-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X17 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All MGMT Management IP",
+            "uuid": "236a7ca6-3ea5-b3e5-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "MGMT IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Firewall Terminal Services Agents",
+            "uuid": "f67b1a33-3ecc-ac50-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Guest Authentication Servers",
+            "uuid": "915b1428-1e84-13ac-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Subredes Core111",
+            "uuid": "00000000-0000-0001-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "LAN_10.10.1.0"
+                    },
+                    {
+                        "name": "Subnet70"
+                    },
+                    {
+                        "name": "Subnet_132.147.60.0"
+                    },
+                    {
+                        "name": "VoIP_172.17.0.0"
+                    },
+                    {
+                        "name": "Subnet60"
+                    },
+                    {
+                        "name": "Subnet50"
+                    },
+                    {
+                        "name": "Subnet40"
+                    },
+                    {
+                        "name": "Subnet30"
+                    },
+                    {
+                        "name": "Subnet20"
+                    },
+                    {
+                        "name": "Subnet_132.147.10.0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Redes_Calzada ",
+            "uuid": "00000000-0000-0002-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X0 Subnet"
+                    }
+                ]
+            },
+            "address_group": {
+                "ipv4": [
+                    {
+                        "name": "Subredes Core111"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Redes_Bosques",
+            "uuid": "00000000-0000-0003-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "VoIP_Bosques"
+                    },
+                    {
+                        "name": "LAN_Bosques"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "VPN_Subnet",
+            "uuid": "00000000-0000-0004-0200-2cb8ed326080",
+            "address_group": {
+                "ipv4": [
+                    {
+                        "name": "Redes_Fray "
+                    },
+                    {
+                        "name": "Redes_Bosques"
+                    },
+                    {
+                        "name": "Redes_Calzada "
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Redes_Fray ",
+            "uuid": "00000000-0000-0005-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "VOIP_FRAY"
+                    },
+                    {
+                        "name": "LAN_Fray"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "VPN_CR_20_21_250",
+            "uuid": "00000000-0000-0006-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "VPN_132.147.10.250"
+                    },
+                    {
+                        "name": "VPN_132.147.10.0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Redes_Lan_to_VPN_Fray",
+            "uuid": "00000000-0000-0007-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Lan_132.147.10.0/24"
+                    },
+                    {
+                        "name": "Subnet70"
+                    },
+                    {
+                        "name": "Subnet30"
+                    },
+                    {
+                        "name": "X0 Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Lan_2_Lan Subnets",
+            "uuid": "c36ea189-f7e7-5a31-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Lan_2_Lan Interface IP",
+            "uuid": "10c0d3b7-35d5-ead4-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Servidores",
+            "uuid": "00000000-0000-0012-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Server_132.147.10.182"
+                    },
+                    {
+                        "name": "Server_132.147.10.181"
+                    },
+                    {
+                        "name": "Server_132.147.10.92"
+                    },
+                    {
+                        "name": "Server_132.147.10.90"
+                    },
+                    {
+                        "name": "Server_132.147.10.89"
+                    },
+                    {
+                        "name": "Server_132.147.10.88"
+                    },
+                    {
+                        "name": "Server_132.147.10.87"
+                    },
+                    {
+                        "name": "Server_132.147.10.50"
+                    },
+                    {
+                        "name": "Server_ 132.147.10.17"
+                    },
+                    {
+                        "name": "Server_132.147.10.137"
+                    },
+                    {
+                        "name": "Server_132.147.10.136"
+                    },
+                    {
+                        "name": "Server_132.147.10.135"
+                    },
+                    {
+                        "name": "Server_132.147.10.134-Nat"
+                    },
+                    {
+                        "name": "Server_132.147.10.133"
+                    },
+                    {
+                        "name": "Server_132.147.10.132"
+                    },
+                    {
+                        "name": "Server_132.147.10.131"
+                    },
+                    {
+                        "name": "Server_132.147.10.130"
+                    },
+                    {
+                        "name": "132.147.10.244"
+                    },
+                    {
+                        "name": "Server TsPlus"
+                    },
+                    {
+                        "name": "132.147.10.12"
+                    },
+                    {
+                        "name": "Server_132.147.10.95"
+                    },
+                    {
+                        "name": "Server_132.147.10.94"
+                    },
+                    {
+                        "name": "Server_132.147.10.93"
+                    },
+                    {
+                        "name": "Server_132.147.10.20"
+                    },
+                    {
+                        "name": "132.147.10.10"
+                    },
+                    {
+                        "name": "132.147.10.253"
+                    },
+                    {
+                        "name": "132.147.10.29"
+                    },
+                    {
+                        "name": "132.147.10.27"
+                    },
+                    {
+                        "name": "Server_132.147.10.18"
+                    },
+                    {
+                        "name": "SIEM"
+                    },
+                    {
+                        "name": "Server_132.147.10.221_VPN"
+                    },
+                    {
+                        "name": "Server_132.147.10.220"
+                    },
+                    {
+                        "name": "132.147.10.52"
+                    },
+                    {
+                        "name": "132.147.10.11_MovilApp Private"
+                    },
+                    {
+                        "name": "Server_132.147.10.22"
+                    },
+                    {
+                        "name": "Server_132.147.10.26"
+                    },
+                    {
+                        "name": "132.147.10.36-UPS"
+                    },
+                    {
+                        "name": "132.147.10.33-UPS"
+                    },
+                    {
+                        "name": "132.147.10.32-UPS"
+                    },
+                    {
+                        "name": "132.147.10.31-UPS"
+                    },
+                    {
+                        "name": "132.147.10.211-APS"
+                    },
+                    {
+                        "name": "Server_132.147.10.16 Private"
+                    },
+                    {
+                        "name": "Server_192.168.20.35-Nat"
+                    },
+                    {
+                        "name": "Server_132.147.10.196"
+                    },
+                    {
+                        "name": "Server_132.147.10.23-Nat"
+                    },
+                    {
+                        "name": "Server_132.147.10.13-Nat"
+                    },
+                    {
+                        "name": "Server_132.147.10.15"
+                    },
+                    {
+                        "name": "Server_132.147.10.14-Nat"
+                    },
+                    {
+                        "name": "Server_132.147.10.21"
+                    },
+                    {
+                        "name": "Server_132.147.10.55"
+                    },
+                    {
+                        "name": "Server_132.147.10.38"
+                    },
+                    {
+                        "name": "Server_132.147.10.28"
+                    },
+                    {
+                        "name": "Server_132.147.10.250-Nat"
+                    },
+                    {
+                        "name": "Server_132.147.10.120"
+                    },
+                    {
+                        "name": "Server_132.147.10.252"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "SSO-Exclution",
+            "uuid": "00000000-0000-0091-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Telefono_192.168.40.151"
+                    },
+                    {
+                        "name": "132.147.10.212-UPS"
+                    },
+                    {
+                        "name": "132.147.10.36-UPS"
+                    },
+                    {
+                        "name": "132.147.10.33-UPS"
+                    },
+                    {
+                        "name": "132.147.10.32-UPS"
+                    },
+                    {
+                        "name": "132.147.10.31-UPS"
+                    },
+                    {
+                        "name": "192.168.40.20-APS"
+                    },
+                    {
+                        "name": "192.168.40.19-APS"
+                    },
+                    {
+                        "name": "192.168.40.18-APS"
+                    },
+                    {
+                        "name": "192.168.40.17-APS"
+                    },
+                    {
+                        "name": "192.168.40.16-APS"
+                    },
+                    {
+                        "name": "192.168.40.15-APS"
+                    },
+                    {
+                        "name": "132.147.10.211-APS"
+                    },
+                    {
+                        "name": "132.147.10.48-impresora"
+                    },
+                    {
+                        "name": "132.147.10.47-impresora"
+                    },
+                    {
+                        "name": "132.147.10.46-impresora"
+                    },
+                    {
+                        "name": "132.147.10.45-impresora"
+                    },
+                    {
+                        "name": "132.147.10.44-impresora"
+                    },
+                    {
+                        "name": "132.147.10.43-impresora"
+                    },
+                    {
+                        "name": "132.147.10.42-impresora"
+                    },
+                    {
+                        "name": "132.147.10.41-impresora"
+                    },
+                    {
+                        "name": "192.168.30.249-impresora"
+                    },
+                    {
+                        "name": "X0:V100 Subnet"
+                    }
+                ]
+            },
+            "address_group": {
+                "ipv4": [
+                    {
+                        "name": "Exclusiones para SSOr"
+                    },
+                    {
+                        "name": "Redes_Fray "
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "ORION_SERVER",
+            "uuid": "00000000-0000-0092-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Server_132.147.10.26"
+                    },
+                    {
+                        "name": "Server_132.147.10.196"
+                    },
+                    {
+                        "name": "Server_132.147.10.21"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "servidores_X2_9003",
+            "uuid": "00000000-0000-0093-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Server_132.147.10.22"
+                    },
+                    {
+                        "name": "Server_132.147.10.21"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "LAN REDES",
+            "uuid": "00000000-0000-0094-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X0 Subnet"
+                    }
+                ]
+            },
+            "address_group": {
+                "ipv4": [
+                    {
+                        "name": "Subredes Core111"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Calixta",
+            "uuid": "00000000-0000-0095-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "216.92.35.171"
+                    },
+                    {
+                        "name": "104.150.141.74"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Exclusion Load Balancing",
+            "uuid": "00000000-0000-0096-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Rango 132.147.10.22-254"
+                    },
+                    {
+                        "name": "Rango 132.147.10.1-20"
+                    },
+                    {
+                        "name": "X0:V100 Subnet"
+                    },
+                    {
+                        "name": "Subnet70"
+                    },
+                    {
+                        "name": "Subnet_132.147.60.0"
+                    },
+                    {
+                        "name": "VoIP_172.17.0.0"
+                    },
+                    {
+                        "name": "Subnet60"
+                    },
+                    {
+                        "name": "Subnet50"
+                    },
+                    {
+                        "name": "Subnet40"
+                    },
+                    {
+                        "name": "Subnet30"
+                    },
+                    {
+                        "name": "Subnet20"
+                    },
+                    {
+                        "name": "X0 Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All Rogue Access Points",
+            "uuid": "868829ed-a704-d9ee-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Client CF Enforcement List",
+            "uuid": "95df4195-5389-731e-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Excluded from Client CF Enforcement List",
+            "uuid": "495d9b3c-f6ff-75a2-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All Rogue Devices",
+            "uuid": "53870eb2-5203-4958-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All U0 Management IP",
+            "uuid": "7ba4049b-5abe-a996-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "U0 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All U1 Management IP",
+            "uuid": "062d2611-b891-9f35-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "U1 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Social Login Pass Group",
+            "uuid": "0188e8d2-711b-a052-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Default Social Login Pass Group",
+            "uuid": "6ff0100e-0ae5-abe7-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "LAN_CR_3",
+            "uuid": "00000000-0000-00b8-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "LAN_CR_172_21"
+                    },
+                    {
+                        "name": "LAN_CR_5.0"
+                    },
+                    {
+                        "name": "LAN_CR_92.0"
+                    },
+                    {
+                        "name": "LAN_CR_6.0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Grupo_Local_NatSalida",
+            "uuid": "00000000-0000-00bb-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Nelson_10.126"
+                    },
+                    {
+                        "name": "192.168.50.111"
+                    },
+                    {
+                        "name": "192.168.50.144"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Excl_TeamViewer",
+            "uuid": "00000000-0000-00bc-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X8 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "STP_Servers",
+            "uuid": "00000000-0000-00c0-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Server_132.147.10.221_VPN"
+                    },
+                    {
+                        "name": "Server_132.147.10.13_VPN"
+                    },
+                    {
+                        "name": "Server_132.147.10.21_VPN"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Redes_Kon",
+            "uuid": "00000000-0000-00c4-0200-2cb8ed326080",
+            "address_group": {
+                "ipv4": [
+                    {
+                        "name": "Firewalled Subnets"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Excluded from McAfee Client AV Enforcement List",
+            "uuid": "de516bd3-85ad-7e3d-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Excluded from Kaspersky Client AV Enforcement List",
+            "uuid": "8475e0d3-c870-ea98-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Capture Client Enforcement List",
+            "uuid": "dadea834-6d04-7868-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Excluded from Capture Client Enforcement List",
+            "uuid": "e46601d4-2356-e864-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "DPI-SSL Enforcement List",
+            "uuid": "6eda386b-204b-11ff-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Excluded from DPI-SSL Enforcement List",
+            "uuid": "6c7de50e-f369-4a35-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "SSO 3rd-Party API Clients",
+            "uuid": "031702cd-ab57-c51c-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Redes locales corp",
+            "uuid": "00000000-0000-00cc-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "GLOBALVPN_10.10.4.0"
+                    },
+                    {
+                        "name": "Subnet50"
+                    },
+                    {
+                        "name": "Subnet40"
+                    },
+                    {
+                        "name": "Subnet30"
+                    },
+                    {
+                        "name": "Subnet_132.147.10.0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "invitados Subnets",
+            "uuid": "d134bcee-e12b-45dc-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X6 Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "invitados Interface IP",
+            "uuid": "d6ad4b48-93da-b5b5-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X6 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Moviles",
+            "uuid": "00000000-0000-00d0-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "192.168.40.225_Movil"
+                    },
+                    {
+                        "name": "192.168.40.224_Movil"
+                    },
+                    {
+                        "name": "192.168.40.223_Movil"
+                    },
+                    {
+                        "name": "192.168.40.222_Movil"
+                    },
+                    {
+                        "name": "192.168.40.221_Movil"
+                    },
+                    {
+                        "name": "192.168.40.220_Movil"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Exclusiones para SSOr",
+            "uuid": "00000000-0000-00d1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Exclusion_192.168.70.110"
+                    },
+                    {
+                        "name": "Exclusion_192.168.70.100"
+                    },
+                    {
+                        "name": "Exclusion_192.168.40.224"
+                    },
+                    {
+                        "name": "Exclusion_192.168.40.223"
+                    },
+                    {
+                        "name": "Exclusion_192.168.40.222"
+                    },
+                    {
+                        "name": "Exclusion_192.168.40.143"
+                    },
+                    {
+                        "name": "Exclusion_192.168.40.121"
+                    },
+                    {
+                        "name": "Exclusion_192.168.30.254"
+                    },
+                    {
+                        "name": "Exclusion_192.168.30.45"
+                    },
+                    {
+                        "name": "Exclusion_172.17.0.245"
+                    },
+                    {
+                        "name": "Exclusion_172.17.0.24"
+                    },
+                    {
+                        "name": "Exclusion_132.147.10.254"
+                    },
+                    {
+                        "name": "Exclusion_132.147.10.203"
+                    },
+                    {
+                        "name": "Exclusion_132.147.10.171"
+                    },
+                    {
+                        "name": "Exclusion_132.147.10.158"
+                    },
+                    {
+                        "name": "Exclusion_132.147.10.103"
+                    },
+                    {
+                        "name": "Exclusion_10.10.92.192"
+                    },
+                    {
+                        "name": "Exclusion_10.10.92.50"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.203"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.118"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.116"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.114"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.58"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.56"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.53"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.51"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.16"
+                    },
+                    {
+                        "name": "Exclusion_10.10.6.1"
+                    },
+                    {
+                        "name": "Exclusion_10.5.1.1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "AX Subnets",
+            "uuid": "624cc771-b48f-4d7c-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "AX Interface IP",
+            "uuid": "d30c39b7-1c0f-feff-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Navegacion_X7",
+            "uuid": "00000000-0000-00d3-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "SSLVPN DHCP"
+                    },
+                    {
+                        "name": "X0:V100 Subnet"
+                    },
+                    {
+                        "name": "Lan_132.147.10.0/24"
+                    },
+                    {
+                        "name": "Subnet60"
+                    },
+                    {
+                        "name": "Subnet50"
+                    },
+                    {
+                        "name": "Subnet40"
+                    },
+                    {
+                        "name": "Subnet30"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "LanCR",
+            "uuid": "00000000-0000-00d4-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "172.16.22.0"
+                    },
+                    {
+                        "name": "LanCR_172.60.61"
+                    },
+                    {
+                        "name": "lancr_10.1.11"
+                    },
+                    {
+                        "name": "LAN_CR_172"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "LAN_CR",
+            "uuid": "00000000-0000-00d6-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "172.16.23.24"
+                    },
+                    {
+                        "name": "LAN_CR_172.16"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "ClienteVPN_Sucursal2Corpo",
+            "uuid": "00000000-0000-00da-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "10.1.11.31_Servidor"
+                    },
+                    {
+                        "name": "132.147.10.16_Kyspersky"
+                    },
+                    {
+                        "name": "132.147.10.23_Addaflex"
+                    },
+                    {
+                        "name": "Srv_132.147.10.26_Z"
+                    },
+                    {
+                        "name": "132.147.10.27"
+                    },
+                    {
+                        "name": "LAN_CR_172"
+                    },
+                    {
+                        "name": "Server_132.147.10.15"
+                    },
+                    {
+                        "name": "Server_132.147.10.14-Nat"
+                    },
+                    {
+                        "name": "Server_132.147.10.21"
+                    },
+                    {
+                        "name": "Server_132.147.10.252"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Cliente_Atraccion&Talento_VPN",
+            "uuid": "00000000-0000-00e1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Srv_132.147.10.203_GiroBD"
+                    },
+                    {
+                        "name": "Srv_132.147.10.26_Z"
+                    },
+                    {
+                        "name": "Srv_132.147.10.250_CO"
+                    },
+                    {
+                        "name": "Srv_132.147.10.17_Giro"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "LAN_X7_CR",
+            "uuid": "00000000-0000-00ed-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "LAN_CR_10.0"
+                    },
+                    {
+                        "name": "RED_LAN_CR_172_21"
+                    },
+                    {
+                        "name": "RED_LAN_CR_5.0"
+                    },
+                    {
+                        "name": "RED_LAN_CR_92.0"
+                    },
+                    {
+                        "name": "RED_LAN_CR_6.0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Merca_Mac",
+            "uuid": "00000000-0000-00f0-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Merca Ivan Bien"
+                    },
+                    {
+                        "name": "Merca Melissa Bien"
+                    },
+                    {
+                        "name": "Merca Sonia Bien"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "DNS",
+            "uuid": "00000000-0000-00f1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "DNS_4.2.2.2"
+                    },
+                    {
+                        "name": "DNS_208.67.220.220"
+                    },
+                    {
+                        "name": "DNS_208.67.222.222"
+                    },
+                    {
+                        "name": "DNS_9.9.9.9"
+                    },
+                    {
+                        "name": "DNS_1.1.1.1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Origen a Red 172",
+            "uuid": "00000000-0000-00fe-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X0:V100 Subnet"
+                    },
+                    {
+                        "name": "Subnet40"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "ClientVPN_Orion",
+            "uuid": "00000000-0000-0109-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "132.147.10.10"
+                    },
+                    {
+                        "name": "132.147.10.27"
+                    },
+                    {
+                        "name": "Server_132.147.10.220"
+                    },
+                    {
+                        "name": "Server_132.147.10.11"
+                    },
+                    {
+                        "name": "Server_132.147.10.26"
+                    },
+                    {
+                        "name": "Server_132.147.10.15"
+                    },
+                    {
+                        "name": "Server_132.147.10.55"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "ClientVPN_Apolo",
+            "uuid": "00000000-0000-010a-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "ClientVPN_Andromeda"
+                    },
+                    {
+                        "name": "132.147.10.10"
+                    },
+                    {
+                        "name": "Server_132.147.10.221_VPN"
+                    },
+                    {
+                        "name": "Server_132.147.10.220"
+                    },
+                    {
+                        "name": "APIKondinero Public"
+                    },
+                    {
+                        "name": "Server_132.147.10.11"
+                    },
+                    {
+                        "name": "DNS Server Principal"
+                    },
+                    {
+                        "name": "Server_132.147.10.26"
+                    },
+                    {
+                        "name": "Server_132.147.10.196"
+                    },
+                    {
+                        "name": "Server_132.147.10.15"
+                    },
+                    {
+                        "name": "Server_132.147.10.55"
+                    },
+                    {
+                        "name": "Server_132.147.10.250-Nat"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Servidores9X",
+            "uuid": "00000000-0000-011c-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Server_132.147.10.95"
+                    },
+                    {
+                        "name": "Server_132.147.10.94"
+                    },
+                    {
+                        "name": "Server_132.147.10.93"
+                    },
+                    {
+                        "name": "recepcion"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "TLMK ServiciosVPN",
+            "uuid": "00000000-0000-0168-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Calixta_70.202"
+                    },
+                    {
+                        "name": "Server_132.147.10.21"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Servers_Provicional",
+            "uuid": "00000000-0000-01b2-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "TsPlus Server Private"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Subredes CR",
+            "uuid": "00000000-0000-01c2-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "10.1.11.31_Servidor"
+                    },
+                    {
+                        "name": "LAN_CR_10.0"
+                    },
+                    {
+                        "name": "LAN_CR_172.16"
+                    },
+                    {
+                        "name": "LAN_CR_172"
+                    },
+                    {
+                        "name": "LAN_CR_5.0"
+                    },
+                    {
+                        "name": "LAN_CR_92.0"
+                    },
+                    {
+                        "name": "LAN_CR_6.0"
+                    },
+                    {
+                        "name": "192.168.3.0 L2L CR"
+                    },
+                    {
+                        "name": "192.168.1.0 L2L CR"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "KD_LAN",
+            "uuid": "00000000-0000-01cb-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "SSLVPN DHCP"
+                    },
+                    {
+                        "name": "Lan_132.147.10.0/24"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "VPN DNS Server",
+            "uuid": "00000000-0000-01cd-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "132.147.10.244"
+                    },
+                    {
+                        "name": "Exclusion_132.147.10.254"
+                    },
+                    {
+                        "name": "132.147.10.29"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Guest Authentication Server 1",
+            "uuid": "0e6cd05c-f9d3-a4be-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Guest Authentication Server 2",
+            "uuid": "e516dd03-0f56-aca4-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Redes_CR",
+            "uuid": "00000000-0000-01e9-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "AX_172.15.22.31"
+                    },
+                    {
+                        "name": "172.15.22.30"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Local_Famsa",
+            "uuid": "00000000-0000-01fd-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "132.147.10.29"
+                    },
+                    {
+                        "name": "Server_132.147.10.14-Nat"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X18 Management IP",
+            "uuid": "4017f074-b81d-135b-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X18 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X19 Management IP",
+            "uuid": "59fc4332-2e40-62c6-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X19 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X20 Management IP",
+            "uuid": "6fff4b53-d16c-afb8-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X20 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X21 Management IP",
+            "uuid": "e7276121-509f-4ba0-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X21 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X22 Management IP",
+            "uuid": "b9dc2531-599a-d880-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X22 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X23 Management IP",
+            "uuid": "94b6f80c-fd26-8d64-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X23 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X24 Management IP",
+            "uuid": "65d2602e-04d8-9763-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X24 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "All X25 Management IP",
+            "uuid": "20fe0844-1421-4321-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X25 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "DataCenter_Local",
+            "uuid": "00000000-0000-0206-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "X0 Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "DataCenter_Remota",
+            "uuid": "00000000-0000-0207-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "DC_172.17.10.0_VPN"
+                    },
+                    {
+                        "name": "DataCenter_10.10.3.0_VPN"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Servidores_activos",
+            "uuid": "00000000-0000-0209-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Mirroring"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "ClienteVPN_AD_SGSI",
+            "uuid": "00000000-0000-020e-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Server_132.147.10.27"
+                    },
+                    {
+                        "name": "132.147.10.244"
+                    },
+                    {
+                        "name": "132.147.10.16_Kyspersky"
+                    },
+                    {
+                        "name": "132.147.10.29"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "ByPass - SSO",
+            "uuid": "00000000-0000-022d-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "PabloAtilano"
+                    },
+                    {
+                        "name": "DC_172.17.10.0_VPN"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Publicas por puerto 22",
+            "uuid": "00000000-0000-023d-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "187.248.54.155"
+                    },
+                    {
+                        "name": "194.72.254.217"
+                    },
+                    {
+                        "name": "194.72.254.216"
+                    },
+                    {
+                        "name": "212.250.153.81"
+                    },
+                    {
+                        "name": "212.250.153.80"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Kio_Local",
+            "uuid": "00000000-0000-025c-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "132.147.10.0_Vlan110"
+                    },
+                    {
+                        "name": "172.16.10.0_RedNat_GDL"
+                    },
+                    {
+                        "name": "Switch core"
+                    },
+                    {
+                        "name": "X0 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "AX",
+            "uuid": "00000000-0000-0260-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "172.15.23.12_LANTOLAN"
+                    },
+                    {
+                        "name": "10.1.11.31_LANTOLAN"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Equipos_Apple_Dir_Ger",
+            "uuid": "00000000-0000-0261-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "192.168.40.67_MACBOOK"
+                    },
+                    {
+                        "name": "192.168.40.68_IPHONE"
+                    },
+                    {
+                        "name": "192.168.40.166_IPAD"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "DataCenter_KIO",
+            "uuid": "00000000-0000-0265-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "DC_172.17.10.0_L2L"
+                    },
+                    {
+                        "name": "DataCenter_10.10.3.0_LAN"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "Firewall SSO Agents",
+            "uuid": "5f8360b5-0374-0551-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "SSO Agent 132.147.10.30"
+                    },
+                    {
+                        "name": "SSO Agent 132.147.10.29"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "DataCenter_Remota_VPN",
+            "uuid": "00000000-0000-028a-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "DataCenter_10.10.3.0_VPN"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "L2L_DataCenter_Remota",
+            "uuid": "00000000-0000-028b-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "DC_172.17.10.0_L2L"
+                    },
+                    {
+                        "name": "DataCenter_10.10.3.0_LAN"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "L2L_DataCenter_Local",
+            "uuid": "00000000-0000-028c-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "LAN_10.10.2.0"
+                    },
+                    {
+                        "name": "132.147.10.0_Vlan110"
+                    },
+                    {
+                        "name": "172.16.10.0_RedNat_GDL"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "VPN_DataCenter_Remota",
+            "uuid": "00000000-0000-0294-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "DC_172.17.10.0_VPN"
+                    },
+                    {
+                        "name": "DataCenter_10.10.3.0_VPN"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "VPN_DataCenter_Local",
+            "uuid": "00000000-0000-0295-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "LAN_10.10.2.0"
+                    },
+                    {
+                        "name": "132.147.10.0_Vlan110"
+                    },
+                    {
+                        "name": "172.16.10.0_RedNat_GDL"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "VPN_Auditoria_Local",
+            "uuid": "00000000-0000-02a0-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Svr_132.147.10.52 Private"
+                    },
+                    {
+                        "name": "Subnet50"
+                    },
+                    {
+                        "name": "X0 IP"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "VPN_Auditoria_Remota",
+            "uuid": "00000000-0000-02a1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Auditoria_172.17.23.9"
+                    },
+                    {
+                        "name": "Auditoria_172.17.21.8"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "name": "NAT Auditoria",
+            "uuid": "00000000-0000-02a4-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "GLOBALVPN_10.10.4.0"
+                    },
+                    {
+                        "name": "Subnet60"
+                    },
+                    {
+                        "name": "Subnet50"
+                    },
+                    {
+                        "name": "Subnet40"
+                    },
+                    {
+                        "name": "Subnet30"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "GMS Addresses",
+            "uuid": "6c4b1b12-e9d4-5ff4-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "GMS Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "ByPass -APP Control",
+            "uuid": "00000000-0000-0240-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "app-sorteos.com"
+                    },
+                    {
+                        "name": "listanominal.ine.mx"
+                    }
+                ],
+                "ipv4": [
+                    {
+                        "name": "user_192.168.50.117"
+                    },
+                    {
+                        "name": "132.147.10.240"
+                    },
+                    {
+                        "name": "192.168.1.25_Oracle"
+                    },
+                    {
+                        "name": "132.147.10.126_Nelson"
+                    }
+                ]
+            },
+            "address_group": {
+                "ipv6": [
+                    {
+                        "name": "Kaspersky"
+                    },
+                    {
+                        "name": "ByPass - SonicWALL"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "ByPass - SonicWALL",
+            "uuid": "00000000-0000-0106-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "crehana.com"
+                    },
+                    {
+                        "name": "hubspot.es"
+                    },
+                    {
+                        "name": "hootsuite.com"
+                    },
+                    {
+                        "name": "listanominal.ine.mx"
+                    },
+                    {
+                        "name": "respaldodeinformacion.telmex.com"
+                    },
+                    {
+                        "name": "app.powerbi.com"
+                    },
+                    {
+                        "name": "apiservices.toka.com.mx"
+                    },
+                    {
+                        "name": "access.mozy.com"
+                    }
+                ],
+                "ipv4": [
+                    {
+                        "name": "ServerIIS130Public"
+                    },
+                    {
+                        "name": "ServerIIS130Private"
+                    },
+                    {
+                        "name": "132.147.10.115"
+                    },
+                    {
+                        "name": "DNS_1.1.1.1"
+                    },
+                    {
+                        "name": "Server_132.147.10.26"
+                    },
+                    {
+                        "name": "132.147.10.41-impresora"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "ByPass - ATP",
+            "uuid": "00000000-0000-0107-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "asana"
+                    }
+                ],
+                "ipv4": [
+                    {
+                        "name": "192.168.1.25_Oracle"
+                    },
+                    {
+                        "name": "RangoVPNHosts"
+                    },
+                    {
+                        "name": "SSLVPN DHCP"
+                    },
+                    {
+                        "name": "132.147.10.29"
+                    },
+                    {
+                        "name": "Server_132.147.10.14-Nat"
+                    },
+                    {
+                        "name": "X7 Subnet"
+                    },
+                    {
+                        "name": "X5 Subnet"
+                    }
+                ]
+            },
+            "address_group": {
+                "ipv6": [
+                    {
+                        "name": "Kaspersky"
+                    },
+                    {
+                        "name": "ByPass - SonicWALL"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Wifi_Invitados_Exclusion",
+            "uuid": "00000000-0000-00a3-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "132.147.10.96_Vmw"
+                    }
+                ],
+                "fqdn": [
+                    {
+                        "name": "wdpilotos.ddns.net"
+                    },
+                    {
+                        "name": "*.captureclient-36.sonicwall.com"
+                    },
+                    {
+                        "name": "*.secc50.com"
+                    },
+                    {
+                        "name": "r.gointegro.info"
+                    },
+                    {
+                        "name": "*.intercom-attachments-9.com"
+                    },
+                    {
+                        "name": "*.intercom-attachments-8.com"
+                    },
+                    {
+                        "name": "*.intercom-attachments-7.com"
+                    },
+                    {
+                        "name": "*.intercom-attachments-6.com"
+                    },
+                    {
+                        "name": "*.intercom-attachments-5.com"
+                    },
+                    {
+                        "name": "*.intercom-attachments-4.com"
+                    },
+                    {
+                        "name": "*.intercom-attachments-3.com"
+                    },
+                    {
+                        "name": "*.intercom-attachments-2.com"
+                    },
+                    {
+                        "name": "*.intercom-attachments-1.com"
+                    },
+                    {
+                        "name": "*.intercom.io"
+                    },
+                    {
+                        "name": "*.intercomassets.com"
+                    },
+                    {
+                        "name": "*.intercomcdn.com"
+                    },
+                    {
+                        "name": "*.nr-data.net"
+                    },
+                    {
+                        "name": "*.newrelic.com"
+                    },
+                    {
+                        "name": "*.google-analytics.com"
+                    },
+                    {
+                        "name": "*.s3.amazonaws.com"
+                    },
+                    {
+                        "name": "sites.gointegro.net"
+                    },
+                    {
+                        "name": "*.gointegro.com"
+                    },
+                    {
+                        "name": "*.leadvision.mx"
+                    },
+                    {
+                        "name": "*.pki.goog"
+                    },
+                    {
+                        "name": "smtp.gmail.com"
+                    },
+                    {
+                        "name": "gmail.com"
+                    },
+                    {
+                        "name": "bba800-anchor.microsoftonline.com"
+                    },
+                    {
+                        "name": "alsea.interfactura.com"
+                    },
+                    {
+                        "name": "smskd.kondinero.com"
+                    },
+                    {
+                        "name": "super.walmart.com.mx"
+                    },
+                    {
+                        "name": "sipsalario.zohoshowtime.com"
+                    },
+                    {
+                        "name": "virtual.city-adventours.com"
+                    },
+                    {
+                        "name": "web.whatsapp.com"
+                    },
+                    {
+                        "name": "cutt.ly"
+                    },
+                    {
+                        "name": "docs.google.com"
+                    },
+                    {
+                        "name": "app-sorteos.com"
+                    },
+                    {
+                        "name": "gdl.webex.com"
+                    },
+                    {
+                        "name": "*.hubspot.com"
+                    },
+                    {
+                        "name": "crehana.com"
+                    },
+                    {
+                        "name": "hubspot.es"
+                    },
+                    {
+                        "name": "hootsuite.com"
+                    },
+                    {
+                        "name": "asana2"
+                    },
+                    {
+                        "name": "asana"
+                    },
+                    {
+                        "name": "homeapps.volaris.com"
+                    },
+                    {
+                        "name": "volaris.com"
+                    },
+                    {
+                        "name": "apigw.volaris.com"
+                    },
+                    {
+                        "name": "conferencia.telmex.com"
+                    },
+                    {
+                        "name": "measure.office.com"
+                    },
+                    {
+                        "name": "TELMEX"
+                    },
+                    {
+                        "name": "*.measure.office.com"
+                    },
+                    {
+                        "name": "*.telmex.com"
+                    },
+                    {
+                        "name": "videoconferencia.telmex.com"
+                    },
+                    {
+                        "name": "*.zoom.us"
+                    },
+                    {
+                        "name": "nom151.advantage-security.com"
+                    },
+                    {
+                        "name": "*.msn.com"
+                    },
+                    {
+                        "name": "Correo Google"
+                    },
+                    {
+                        "name": "servicios google.com"
+                    },
+                    {
+                        "name": "cloud.uipath.com"
+                    },
+                    {
+                        "name": "genially.blob.core.windows.net"
+                    },
+                    {
+                        "name": "*.genial.ly"
+                    },
+                    {
+                        "name": "images.genial.ly"
+                    },
+                    {
+                        "name": "statics-view.genial.ly"
+                    },
+                    {
+                        "name": "calixtaondemand.com"
+                    },
+                    {
+                        "name": "kondinero.addaccion.net"
+                    },
+                    {
+                        "name": "view.genial.ly"
+                    },
+                    {
+                        "name": "www.nomico.mx"
+                    },
+                    {
+                        "name": "enomina.mx"
+                    },
+                    {
+                        "name": "*.googleapis.com"
+                    },
+                    {
+                        "name": "fonts.googleapis.com"
+                    },
+                    {
+                        "name": "gstatic.com"
+                    },
+                    {
+                        "name": "fonts.gstatic.com"
+                    },
+                    {
+                        "name": "translate.googleapis.com"
+                    },
+                    {
+                        "name": "translate.google.com"
+                    },
+                    {
+                        "name": "nomico.mx"
+                    },
+                    {
+                        "name": "listanominal.ine.mx"
+                    },
+                    {
+                        "name": "*.mettl.com"
+                    },
+                    {
+                        "name": "tests.mettl.com"
+                    },
+                    {
+                        "name": "LogMeIn"
+                    },
+                    {
+                        "name": "midway.ext.hpe.com"
+                    },
+                    {
+                        "name": "www.kondinero.com"
+                    },
+                    {
+                        "name": "sms.calixtaondemand.com"
+                    }
+                ],
+                "ipv4": [
+                    {
+                        "name": "user_192.168.50.117"
+                    },
+                    {
+                        "name": "user_192.168.50.137"
+                    },
+                    {
+                        "name": "user_192.168.60.21"
+                    },
+                    {
+                        "name": "user_192.168.40.154"
+                    },
+                    {
+                        "name": "user_192.168.60.19"
+                    },
+                    {
+                        "name": "132.147.10.97_vCenter"
+                    },
+                    {
+                        "name": "3.211.90.202"
+                    },
+                    {
+                        "name": "204.236.161.78"
+                    },
+                    {
+                        "name": "54.177.31.65"
+                    },
+                    {
+                        "name": "3.209.190.227"
+                    },
+                    {
+                        "name": "52.0.88.74"
+                    },
+                    {
+                        "name": "54.177.12.13"
+                    },
+                    {
+                        "name": "18.144.106.240"
+                    },
+                    {
+                        "name": "3.214.202.136"
+                    },
+                    {
+                        "name": "187.210.101.146"
+                    },
+                    {
+                        "name": "50.17.58.146"
+                    },
+                    {
+                        "name": "132.147.10.240"
+                    },
+                    {
+                        "name": "3.223.73.198"
+                    },
+                    {
+                        "name": "34.202.136.204"
+                    },
+                    {
+                        "name": "3.223.68.239"
+                    },
+                    {
+                        "name": "3.229.59.32"
+                    },
+                    {
+                        "name": "52.203.100.2"
+                    },
+                    {
+                        "name": "3.230.235.205"
+                    },
+                    {
+                        "name": "34.235.3.193"
+                    },
+                    {
+                        "name": "34.107.221.82"
+                    },
+                    {
+                        "name": "192.168.1.25_Oracle"
+                    },
+                    {
+                        "name": "tlmk249"
+                    },
+                    {
+                        "name": "PabloAtilano"
+                    },
+                    {
+                        "name": "IP_187.248.54.214"
+                    },
+                    {
+                        "name": "192.168.40.110_IP_PabloSisa"
+                    },
+                    {
+                        "name": "cacorona_192.168.30.184"
+                    },
+                    {
+                        "name": "Lalo pc"
+                    },
+                    {
+                        "name": "Bety Lap"
+                    },
+                    {
+                        "name": "Luis Huerta PC"
+                    },
+                    {
+                        "name": "Susy PC"
+                    },
+                    {
+                        "name": "tecalero pc"
+                    },
+                    {
+                        "name": "leslypc"
+                    },
+                    {
+                        "name": "calidad1"
+                    },
+                    {
+                        "name": "elena zarate pc"
+                    },
+                    {
+                        "name": "Elizondo PC"
+                    },
+                    {
+                        "name": "limon"
+                    },
+                    {
+                        "name": "jonathan lopez PC"
+                    },
+                    {
+                        "name": "elena nueva"
+                    },
+                    {
+                        "name": "infinia"
+                    },
+                    {
+                        "name": "Merca Eva Bien"
+                    },
+                    {
+                        "name": "Merca Yander Bien"
+                    },
+                    {
+                        "name": "192.168.30.244"
+                    },
+                    {
+                        "name": "iC"
+                    },
+                    {
+                        "name": "jennifer_60"
+                    },
+                    {
+                        "name": "manzo pc"
+                    },
+                    {
+                        "name": "lap ti"
+                    },
+                    {
+                        "name": "julio cesar ipad"
+                    },
+                    {
+                        "name": "julio cesar iphone"
+                    },
+                    {
+                        "name": "lap_comedor"
+                    },
+                    {
+                        "name": "132.147.10.231"
+                    },
+                    {
+                        "name": "pantalla TI"
+                    },
+                    {
+                        "name": "Pantall Cobranza"
+                    },
+                    {
+                        "name": "Julio Wifi"
+                    },
+                    {
+                        "name": "SSLVPN DHCP"
+                    },
+                    {
+                        "name": "Marisol wifi"
+                    },
+                    {
+                        "name": "Aurea"
+                    },
+                    {
+                        "name": "jgsosa"
+                    },
+                    {
+                        "name": "Nadia-LAP"
+                    },
+                    {
+                        "name": "Gustavo"
+                    },
+                    {
+                        "name": "Roberto"
+                    },
+                    {
+                        "name": "iphone danielv"
+                    },
+                    {
+                        "name": "NAS_Calixta"
+                    },
+                    {
+                        "name": "sac272"
+                    },
+                    {
+                        "name": "valeria"
+                    },
+                    {
+                        "name": "iphone daniel venegas"
+                    },
+                    {
+                        "name": "gaby luquin celular"
+                    },
+                    {
+                        "name": "Jesus Garcia Legal"
+                    },
+                    {
+                        "name": "Julio pC"
+                    },
+                    {
+                        "name": "Chronicall"
+                    },
+                    {
+                        "name": "Andres_Desarrollo"
+                    },
+                    {
+                        "name": "Paulina Zu\u0303\u0261iga"
+                    },
+                    {
+                        "name": "Daniel Venegas"
+                    },
+                    {
+                        "name": "puga lap"
+                    },
+                    {
+                        "name": "plascencia iphone"
+                    },
+                    {
+                        "name": "iPad fer"
+                    },
+                    {
+                        "name": "ipher"
+                    },
+                    {
+                        "name": "Maribel"
+                    },
+                    {
+                        "name": "TV TI"
+                    },
+                    {
+                        "name": "Griselle"
+                    },
+                    {
+                        "name": "Merca Ivan Bien"
+                    },
+                    {
+                        "name": "rubenvazquez"
+                    },
+                    {
+                        "name": "recepcion"
+                    },
+                    {
+                        "name": "Gaby Luquin_30"
+                    },
+                    {
+                        "name": "ipad ruben"
+                    },
+                    {
+                        "name": "calidad2"
+                    },
+                    {
+                        "name": "Guadalupe Garcia."
+                    },
+                    {
+                        "name": "IpadPuga_40.32"
+                    },
+                    {
+                        "name": "Iphone_Puga_40.31"
+                    },
+                    {
+                        "name": "iDarioV_40.30"
+                    },
+                    {
+                        "name": "Calixta_70.202"
+                    },
+                    {
+                        "name": "Calixta_70.201"
+                    },
+                    {
+                        "name": "Mariela Sandoval"
+                    },
+                    {
+                        "name": "Host_132.147.10.144"
+                    },
+                    {
+                        "name": "Merca Melissa Bien"
+                    },
+                    {
+                        "name": "Merca Sonia Bien"
+                    },
+                    {
+                        "name": "DNS_1.1.1.1"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 4"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 3"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 2"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 0"
+                    },
+                    {
+                        "name": "Sarai_10.200"
+                    },
+                    {
+                        "name": "132.147.10.41-impresora"
+                    },
+                    {
+                        "name": "Fer Wifi"
+                    },
+                    {
+                        "name": "Fer"
+                    },
+                    {
+                        "name": "IP_132.147.10.1"
+                    }
+                ]
+            },
+            "address_group": {
+                "ipv6": [
+                    {
+                        "name": "AccesoTemporal"
+                    },
+                    {
+                        "name": "Kaspersky"
+                    }
+                ],
+                "ipv4": [
+                    {
+                        "name": "Servidores"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Exc - Filtrado",
+            "uuid": "00000000-0000-00a4-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "USA_Services"
+                    },
+                    {
+                        "name": "192.168.50.110"
+                    },
+                    {
+                        "name": "132.147.10.187"
+                    }
+                ]
+            },
+            "address_group": {
+                "ipv6": [
+                    {
+                        "name": "Wifi_Invitados_Exclusion"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Legacy CFS Exclusion Group",
+            "uuid": "00000000-0000-009e-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "screenmirrorapp.com"
+                    }
+                ],
+                "ipv4": [
+                    {
+                        "name": "Telefono_192.168.40.151"
+                    },
+                    {
+                        "name": "addaccion2"
+                    },
+                    {
+                        "name": "addaccion1"
+                    },
+                    {
+                        "name": "USA_Services"
+                    },
+                    {
+                        "name": "192.168.30.196"
+                    },
+                    {
+                        "name": "calidad2"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 4"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 3"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 2"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 1"
+                    },
+                    {
+                        "name": "Legacy CFS Exclusion Range 0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X0 IPv6 Addresses",
+            "uuid": "813ccf0d-2af9-7a2c-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X0 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X1 IPv6 Addresses",
+            "uuid": "cb94e3d1-05fb-3362-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X1 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X1 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X1 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X2 IPv6 Addresses",
+            "uuid": "4fad002a-abff-2f81-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X2 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X3 IPv6 Addresses",
+            "uuid": "a9a547f7-0ebc-2bdd-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X3 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X4 IPv6 Addresses",
+            "uuid": "6eb1725d-0542-2fdf-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X4 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X5 IPv6 Addresses",
+            "uuid": "0db93e8a-a364-cadb-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X5 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X6 IPv6 Addresses",
+            "uuid": "8acf13d5-7e8c-11f5-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X6 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X7 IPv6 Addresses",
+            "uuid": "b2cdcb73-3b66-d2a1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X7 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X8 IPv6 Addresses",
+            "uuid": "08b4f7a7-8b8b-8ad8-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X8 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X9 IPv6 Addresses",
+            "uuid": "cb98ea9d-4c71-2d9e-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X9 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X9 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X9 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X10 IPv6 Addresses",
+            "uuid": "257199e0-9625-3f6f-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X10 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X10 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X10 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X11 IPv6 Addresses",
+            "uuid": "c4413a50-a2e4-fdc9-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X11 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X11 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X11 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X12 IPv6 Addresses",
+            "uuid": "eef72f83-86a9-0169-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X12 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X12 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X12 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X13 IPv6 Addresses",
+            "uuid": "3b13e256-c04e-7f84-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X13 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X13 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X13 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X14 IPv6 Addresses",
+            "uuid": "25760e08-901f-f920-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X14 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X14 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X14 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X15 IPv6 Addresses",
+            "uuid": "fe41ed56-8def-ae85-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X15 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X15 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X15 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X16 IPv6 Addresses",
+            "uuid": "34f1317d-558c-ea1f-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X16 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X16 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X16 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X17 IPv6 Addresses",
+            "uuid": "3c23961e-eb27-7a64-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X17 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X17 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X17 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "MGMT IPv6 Addresses",
+            "uuid": "76be1c48-1122-d58a-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "MGMT IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "MGMT IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "MGMT IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "U0 IPv6 Addresses",
+            "uuid": "4bdaa9b9-fbef-cfe7-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "U0 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "U1 IPv6 Addresses",
+            "uuid": "24364dfb-eecf-55ec-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "U1 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "All Interface IPv6 Addresses",
+            "uuid": "25a21a01-657a-011d-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X25 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X25 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X25 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X24 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X24 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X24 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X23 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X23 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X23 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X22 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X22 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X22 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X21 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X21 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X21 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X20 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X20 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X20 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X19 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X19 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X19 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X18 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X18 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X18 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "MGMT IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "MGMT IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "MGMT IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X17 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X17 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X17 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X16 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X16 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X16 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X15 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X15 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X15 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X14 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X14 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X14 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X13 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X13 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X13 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X12 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X12 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X12 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X11 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X11 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X11 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X10 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X10 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X10 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X9 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X9 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X9 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X1 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X1 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X1 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X0 Management IPv6 Addresses",
+            "uuid": "d039f339-d429-2f08-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X0 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X2 Management IPv6 Addresses",
+            "uuid": "b58c4236-299f-f2a1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X2 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Firewalled IPv6 Subnets",
+            "uuid": "43e953ce-1c53-b8f0-0200-2cb8ed326080",
+            "address_group": {
+                "ipv6": [
+                    {
+                        "name": "AX IPv6 Subnets"
+                    },
+                    {
+                        "name": "invitados IPv6 Subnets"
+                    },
+                    {
+                        "name": "WLAN IPv6 Subnets"
+                    },
+                    {
+                        "name": "DMZ IPv6 Subnets"
+                    },
+                    {
+                        "name": "LAN IPv6 Subnets"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Prefixes from DHCPC6 Delegation",
+            "uuid": "3cf7da5e-48b4-a77f-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv6": {
+            "name": "LAN Interface IPv6 Addresses",
+            "uuid": "5e6dfb6e-c2ae-1a7c-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X0:V100 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X0 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "LAN IPv6 Subnets",
+            "uuid": "3d58eb44-f354-7f46-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X0:V100 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "X8 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X8 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "X7 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X7 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "X5 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X5 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "X0 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X0 IPv6 Primary Static Address Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "WAN Interface IPv6 Addresses",
+            "uuid": "85494726-8dc9-375f-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "U1 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X2 IPv6 Link-Local Address"
+                    },
+                    {
+                        "name": "X1 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X1 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X1 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "WAN IPv6 Subnets",
+            "uuid": "bef71886-a419-1785-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "U1 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "U1 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "U0 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "U0 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "X4 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X4 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "X3 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X3 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "X2 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X2 IPv6 Primary Static Address Subnet"
+                    },
+                    {
+                        "name": "X1 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X1 IPv6 Primary Static Address Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "DMZ Interface IPv6 Addresses",
+            "uuid": "cadfa29e-954c-5579-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv6": {
+            "name": "DMZ IPv6 Subnets",
+            "uuid": "31bbcd79-3e90-a773-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv6": {
+            "name": "WLAN IPv6 Subnets",
+            "uuid": "b04bb6e2-df0d-b90d-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv6": {
+            "name": "WLAN Interface IPv6 Addresses",
+            "uuid": "83bcb6c0-cc0c-cabf-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X3 Management IPv6 Addresses",
+            "uuid": "1db58561-1693-7003-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X3 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X3 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X4 Management IPv6 Addresses",
+            "uuid": "7b526ed0-f11b-24e2-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X4 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X4 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X5 Management IPv6 Addresses",
+            "uuid": "ecde47a4-f3bc-39f1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X5 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X5 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X6 Management IPv6 Addresses",
+            "uuid": "4e101002-5187-5753-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X6 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X7 Management IPv6 Addresses",
+            "uuid": "5336d2d1-05c6-416c-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X7 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X7 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X8 Management IPv6 Addresses",
+            "uuid": "9ebb3826-0d71-a4e7-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X8 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X8 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X9 Management IPv6 Addresses",
+            "uuid": "d2fc51a8-27d9-d55e-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X9 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X9 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X9 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X10 Management IPv6 Addresses",
+            "uuid": "7e99c9fa-5b10-bac1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X10 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X10 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X10 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X11 Management IPv6 Addresses",
+            "uuid": "d5b9d202-0848-c9bc-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X11 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X11 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X11 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X12 Management IPv6 Addresses",
+            "uuid": "6c793559-a5a7-5a51-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X12 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X12 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X12 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X13 Management IPv6 Addresses",
+            "uuid": "d9ed02e5-73ad-c23c-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X13 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X13 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X13 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X14 Management IPv6 Addresses",
+            "uuid": "c77366d3-0221-927f-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X14 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X14 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X14 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X15 Management IPv6 Addresses",
+            "uuid": "c2674b78-bf7f-79f8-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X15 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X15 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X15 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X16 Management IPv6 Addresses",
+            "uuid": "cb4c641e-f64b-67ce-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X16 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X16 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X16 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X17 Management IPv6 Addresses",
+            "uuid": "75e0de53-b379-0e8e-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X17 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X17 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X17 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "MGMT Management IPv6 Addresses",
+            "uuid": "9e3992ff-3096-44b9-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "MGMT IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "MGMT IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "MGMT IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "U0 Management IPv6 Addresses",
+            "uuid": "040207e5-c593-6ff6-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "U0 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "U0 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "U1 Management IPv6 Addresses",
+            "uuid": "5fb0af70-f1a1-dd10-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "U1 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "U1 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X0:V100 IPv6 Addresses",
+            "uuid": "b652da96-f525-fa92-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X0:V100 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X0:V100 Management IPv6 Addresses",
+            "uuid": "6f4392b4-00b9-ce80-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X0:V100 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X0:V100 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Wan",
+            "uuid": "00000000-0000-00c8-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "cta-redirect.hubspot.com"
+                    },
+                    {
+                        "name": "www.kondinero.com"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Whatsapp_Grupo",
+            "uuid": "00000000-0000-00c9-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "whatsapp.com"
+                    },
+                    {
+                        "name": "whatsapp.net"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Recepcion_Solicitudes",
+            "uuid": "00000000-0000-00ca-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "kondinero.creditoreal.com"
+                    }
+                ],
+                "ipv4": [
+                    {
+                        "name": "WAN_34.195.167.86"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "invitados IPv6 Subnets",
+            "uuid": "c4036721-35ee-c1f6-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X6 IPv6 Primary Dynamic Address Subnet"
+                    },
+                    {
+                        "name": "X6 IPv6 Primary Static Address Subnet"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "invitados Interface IPv6 Addresses",
+            "uuid": "f64d35f4-ae35-1daf-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X6 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X6 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "AX IPv6 Subnets",
+            "uuid": "6c29ffcf-6f98-eff7-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv6": {
+            "name": "AX Interface IPv6 Addresses",
+            "uuid": "1099ab53-1144-c389-0200-2cb8ed326080"
+        }
+    },
+    {
+        "ipv6": {
+            "name": "NubeTelmex",
+            "uuid": "00000000-0000-0100-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "cp.cloud.telmex.com"
+                    },
+                    {
+                        "name": "telmexrespaldo.mozypro.com"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X18 Management IPv6 Addresses",
+            "uuid": "6ea96938-278d-e5e9-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X18 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X18 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X18 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X19 Management IPv6 Addresses",
+            "uuid": "e5bafb5e-563e-ac96-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X19 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X19 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X19 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X20 Management IPv6 Addresses",
+            "uuid": "b4436754-56e9-5540-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X20 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X20 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X20 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X21 Management IPv6 Addresses",
+            "uuid": "8f8615bc-1887-0013-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X21 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X21 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X21 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X22 Management IPv6 Addresses",
+            "uuid": "ba0b7d3a-5670-87f9-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X22 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X22 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X22 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X23 Management IPv6 Addresses",
+            "uuid": "1a1c5e22-7d75-8148-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X23 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X23 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X23 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X24 Management IPv6 Addresses",
+            "uuid": "feba12bd-5b83-ee0d-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X24 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X24 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X24 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X25 Management IPv6 Addresses",
+            "uuid": "d91a215e-c1e1-1b33-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X25 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X25 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X25 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X18 IPv6 Addresses",
+            "uuid": "77d859d0-bd85-90d1-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X18 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X18 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X18 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X19 IPv6 Addresses",
+            "uuid": "12ae80aa-032a-dfa9-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X19 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X19 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X19 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X20 IPv6 Addresses",
+            "uuid": "c2742d5e-a35b-f254-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X20 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X20 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X20 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X21 IPv6 Addresses",
+            "uuid": "d1b43f95-a56e-ce54-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X21 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X21 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X21 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X22 IPv6 Addresses",
+            "uuid": "2950c39c-6272-c94a-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X22 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X22 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X22 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X23 IPv6 Addresses",
+            "uuid": "6b9ec15e-bf18-c96a-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X23 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X23 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X23 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X24 IPv6 Addresses",
+            "uuid": "1ae1fe96-97ed-0598-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X24 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X24 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X24 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "X25 IPv6 Addresses",
+            "uuid": "65e35309-f608-2177-0200-2cb8ed326080",
+            "address_object": {
+                "ipv6": [
+                    {
+                        "name": "X25 IPv6 Primary Dynamic Address"
+                    },
+                    {
+                        "name": "X25 IPv6 Primary Static Address"
+                    },
+                    {
+                        "name": "X25 IPv6 Link-Local Address"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Kaspersky",
+            "uuid": "00000000-0000-025b-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "*.kaspersky-labs.com"
+                    },
+                    {
+                        "name": "*.kaspersky.com"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "AccesoTemporal",
+            "uuid": "00000000-0000-026f-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "mentimeter.com"
+                    },
+                    {
+                        "name": "eleconomista.com.mx"
+                    },
+                    {
+                        "name": "mitec.itesm.mx"
+                    },
+                    {
+                        "name": "globales-creditoreal.mbgeprojects.net"
+                    },
+                    {
+                        "name": "kondinero.creditoreal.com.mx"
+                    }
+                ],
+                "ipv4": [
+                    {
+                        "name": "192.168.40.111_user_temporal"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Bypass - CFS",
+            "uuid": "00000000-0000-029b-0200-2cb8ed326080",
+            "address_object": {
+                "ipv4": [
+                    {
+                        "name": "Servidor_132.147.10.37"
+                    }
+                ]
+            },
+            "address_group": {
+                "ipv6": [
+                    {
+                        "name": "Paginas_Libres"
+                    },
+                    {
+                        "name": "Wifi_Invitados_Exclusion"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "ipv6": {
+            "name": "Paginas_Libres",
+            "uuid": "00000000-0000-029d-0200-2cb8ed326080",
+            "address_object": {
+                "fqdn": [
+                    {
+                        "name": "lucytrendy.com"
+                    },
+                    {
+                        "name": "papumba.com"
+                    },
+                    {
+                        "name": "babilukos.com"
+                    },
+                    {
+                        "name": "tierradefuego.mx"
+                    },
+                    {
+                        "name": "valentina.mx"
+                    },
+                    {
+                        "name": "is.gd"
+                    },
+                    {
+                        "name": "aguaoptima.com"
+                    },
+                    {
+                        "name": "sf-hhox.secure.sf.accessoticketing.com"
+                    },
+                    {
+                        "name": "kajvel.com"
+                    },
+                    {
+                        "name": "pizzahut.com.mx"
+                    },
+                    {
+                        "name": "tiendamabe.com"
+                    },
+                    {
+                        "name": "wa.me"
+                    },
+                    {
+                        "name": "convenios.doctor-online.co"
+                    },
+                    {
+                        "name": "cineboleto.com"
+                    },
+                    {
+                        "name": "wa.link"
+                    },
+                    {
+                        "name": "membresiavitamedica.com"
+                    },
+                    {
+                        "name": "contactnext.com.mx"
+                    },
+                    {
+                        "name": "cursos.benowu.com"
+                    },
+                    {
+                        "name": "thecareunion.com"
+                    },
+                    {
+                        "name": "tienda.byrne.com.mx"
+                    },
+                    {
+                        "name": "telmex.com"
+                    },
+                    {
+                        "name": "vidmexicana.com"
+                    },
+                    {
+                        "name": "ofertasnoil.com"
+                    },
+                    {
+                        "name": "emma-colchon.com.mx"
+                    },
+                    {
+                        "name": "vittorioforti.com.mx"
+                    },
+                    {
+                        "name": "interelearning.com"
+                    },
+                    {
+                        "name": "tetera.mx"
+                    },
+                    {
+                        "name": "laika.com.mx"
+                    },
+                    {
+                        "name": "ecotiendamexico.com"
+                    },
+                    {
+                        "name": "cocinandoitacates.com.mx"
+                    },
+                    {
+                        "name": "ag-real.com.mx"
+                    },
+                    {
+                        "name": "chimiskoli.com"
+                    },
+                    {
+                        "name": "montepio.org.mx"
+                    },
+                    {
+                        "name": "gaiadesign.com.mx"
+                    },
+                    {
+                        "name": "lotesresidencialescc.com"
+                    },
+                    {
+                        "name": "animalplanetmexico.com"
+                    },
+                    {
+                        "name": "estrenayantas.com"
+                    },
+                    {
+                        "name": "eclass.com"
+                    },
+                    {
+                        "name": "proyectobotanico.com"
+                    },
+                    {
+                        "name": "avis.mx"
+                    },
+                    {
+                        "name": "ahledu.info"
+                    },
+                    {
+                        "name": "innovasport.com"
+                    },
+                    {
+                        "name": "smartfit.com.mx"
+                    },
+                    {
+                        "name": "ereamexico.com"
+                    },
+                    {
+                        "name": "wowme.mx"
+                    },
+                    {
+                        "name": "foodpass.mx"
+                    },
+                    {
+                        "name": "oxinity.com"
+                    },
+                    {
+                        "name": "lacoleccion.com.mx"
+                    },
+                    {
+                        "name": "granplan.com"
+                    },
+                    {
+                        "name": "avitsoluciones.mx"
+                    },
+                    {
+                        "name": "iberia.com"
+                    },
+                    {
+                        "name": "plan.leaandbo.com"
+                    },
+                    {
+                        "name": "ryse.com.mx"
+                    },
+                    {
+                        "name": "lanzamientos.lahaus.mx"
+                    },
+                    {
+                        "name": "wishbird.com.mx"
+                    },
+                    {
+                        "name": "shoppolar.com.mx"
+                    },
+                    {
+                        "name": "perfumando.com.mx"
+                    },
+                    {
+                        "name": "lamiabella.mx"
+                    },
+                    {
+                        "name": "morama.mx"
+                    },
+                    {
+                        "name": "solares.devlyn.com.mx"
+                    },
+                    {
+                        "name": "venivici.com.mx"
+                    },
+                    {
+                        "name": "kyte.site"
+                    },
+                    {
+                        "name": "almadecacao.com.mx"
+                    },
+                    {
+                        "name": "justo.mx"
+                    },
+                    {
+                        "name": "bit.ly"
+                    },
+                    {
+                        "name": "needbeauty.com"
+                    },
+                    {
+                        "name": "skinbarmx.com"
+                    },
+                    {
+                        "name": "miradry.com"
+                    },
+                    {
+                        "name": "nonnaimagenpersonal.com"
+                    },
+                    {
+                        "name": "topcarestore.com"
+                    },
+                    {
+                        "name": "garrafonhogar.com"
+                    },
+                    {
+                        "name": "priceres.com.mx"
+                    },
+                    {
+                        "name": "reservations.rosewoodhotels.com"
+                    },
+                    {
+                        "name": "educacionit.com"
+                    },
+                    {
+                        "name": "gointegro.sigueme.mx"
+                    },
+                    {
+                        "name": "someonesomewhere.mx"
+                    },
+                    {
+                        "name": "redvoucheronline.com.mx"
+                    },
+                    {
+                        "name": "lingofor.me"
+                    },
+                    {
+                        "name": "whitelabels.hotelopia.com"
+                    },
+                    {
+                        "name": "mundojoven.com"
+                    },
+                    {
+                        "name": "hertzmexico.com"
+                    },
+                    {
+                        "name": "automarsh.com.mx"
+                    },
+                    {
+                        "name": "bbvainmuebles.mx"
+                    },
+                    {
+                        "name": "lafabricaplay.com"
+                    },
+                    {
+                        "name": "sicloplus.com"
+                    },
+                    {
+                        "name": "greenhat.mx"
+                    },
+                    {
+                        "name": "app.totalpass.com.mx"
+                    },
+                    {
+                        "name": "grupopresidentemagazine.com"
+                    },
+                    {
+                        "name": "zebra.mx"
+                    },
+                    {
+                        "name": "rappi.app.link"
+                    },
+                    {
+                        "name": "enviaflores.com"
+                    },
+                    {
+                        "name": "zurichvirtual.com.mx"
+                    },
+                    {
+                        "name": "contenido.sadasi.com"
+                    },
+                    {
+                        "name": "landing.uvm.mx"
+                    },
+                    {
+                        "name": "sf-mc.secure.sf.accessoticketing.com"
+                    },
+                    {
+                        "name": "corpo-rate.com"
+                    },
+                    {
+                        "name": "forms.gle"
+                    },
+                    {
+                        "name": "rappi.com.mx"
+                    },
+                    {
+                        "name": "kmivet.com"
+                    },
+                    {
+                        "name": "bbva.communique.com.mx"
+                    },
+                    {
+                        "name": "aprende.com"
+                    },
+                    {
+                        "name": "dilmun.mx"
+                    },
+                    {
+                        "name": "granhotelconcordia.com.mx"
+                    },
+                    {
+                        "name": "cursos.hspacademy.com.mx"
+                    },
+                    {
+                        "name": "anantejoyeria.com"
+                    },
+                    {
+                        "name": "bbva.mx"
+                    },
+                    {
+                        "name": "hiitfit.com.mx"
+                    },
+                    {
+                        "name": "picap.page.link"
+                    },
+                    {
+                        "name": "negocios.uai.cl"
+                    },
+                    {
+                        "name": "marriott.com"
+                    },
+                    {
+                        "name": "universidad.tecmilenio.mx"
+                    },
+                    {
+                        "name": "digitalhouse.com"
+                    },
+                    {
+                        "name": "babilukosonline.com"
+                    },
+                    {
+                        "name": "ihg.com"
+                    },
+                    {
+                        "name": "onlinebigbola.mx"
+                    },
+                    {
+                        "name": "motistore.com"
+                    },
+                    {
+                        "name": "mavenscove.com"
+                    },
+                    {
+                        "name": "delilife.mx"
+                    },
+                    {
+                        "name": "ideascityclub.com"
+                    },
+                    {
+                        "name": "dogiftmx.com"
+                    },
+                    {
+                        "name": "hiltonhotels.com"
+                    },
+                    {
+                        "name": "openenglish.com"
+                    },
+                    {
+                        "name": "mindhelp.mx"
+                    },
+                    {
+                        "name": "www1.la.dell.com"
+                    },
+                    {
+                        "name": "*.dell.com"
+                    },
+                    {
+                        "name": "enomina.mx"
+                    }
+                ]
+            }
+        }
+    }
+]
