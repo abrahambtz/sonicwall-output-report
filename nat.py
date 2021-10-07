@@ -2,8 +2,6 @@
 
 
 import json
-from typing import Dict
-
 
 def source(nat):
     if [x for i, x in nat['source'].items()] == True:
@@ -35,17 +33,6 @@ def read_nat():
 
     rute = 'kondinero/json/nat.json'
     nat_list = open_file(rute)
-    nat_list_g = [
-        {
-            'source_': nat['source'],
-            'translated_source_':nat['translated_source'],
-            'destination_':nat['destination'],
-            'translated_destination_':nat['translated_destination'],
-            'service_':nat['service'],
-            'translated_service_':nat['translated_service']
-
-        }
-        for nat in nat_list if not 'SSO agent' in nat['comment'] if not 'NAT Policy' in nat['comment'] if not 'Auto-added' in nat['comment']]
     # if nat['comment']=='Auto-added X0:V100 outbound NAT Policy for X1 WAN'
 
     nat_list = [
@@ -81,11 +68,11 @@ def read_nat():
                 object_list.append(' '.join(map(str, value)))
         print('----- Objects and Groups ---------')
         print(object_list, end='\n\n')
-        read_object(object_list)
+        read_object(object_list, nat_list)
         object_list = []
 
 
-def read_object(objects):
+def read_object(objects, nat_data):
 
     nats_list = open_file('kondinero/json/nat.json')
     objects_list = open_file('kondinero/json/object.json')
@@ -111,8 +98,10 @@ def read_object(objects):
                         address_group = [x['name'] for x in value['ipv4']]
                         print('Grups:')
                         print(address_group, end='\n\n')
-
+    values_objetcs = []
+    objects_data = objects
     objects = objects + address_object + address_group
+    
     for object in objects:
         for dict in objects_list:
             if dict['name'] == object:
@@ -120,6 +109,7 @@ def read_object(objects):
                 for key, value in dict.items():
                     if not key == 'uuid':
                         print(key + ' : ' + str(value))
+                        values_objetcs.append({key:value})
                 print()
     # print('hola')
     # print(service_groups_list)
@@ -138,6 +128,32 @@ def read_object(objects):
                         for i in service_group:
                             print(i)
     print(end='\n\n')
+    #print_pdf(nat_data,objects_data, values_objetcs, service_object, service_group)
+    #print(nat_data)
+    # print(objects_data)
+    #print(values_objetcs)
+    #print(service_object)
+    #print(service_group)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     # Queda pendiente obtener los servicios de la lista service_objects_list. 
     # Queda pendiente los servicios de server groups, recordar que server groups es un grupo de
@@ -145,7 +161,51 @@ def read_object(objects):
 
     # * Mejora de codigo *
    
+def print_pdf(nats, objetcs, values_objetcs, service_object, service_group):
+    # ###################################
+    # Content
+    fileName = 'ReportNAT-SISA.pdf'
+    documentTitle = 'Reporte de nats'
+    title = 'NAT'
+    subTitle = 'The largest carnivorous marsupial'
 
+    textLines = [
+    'The Tasmanian devil (Sarcophilus harrisii) is',
+    'a carnivorous marsupial of the family',
+    'Dasyuridae.'
+    ]
+
+    image = 'tasmanianDevil.jpg'
+
+
+    # ###################################
+
+    # 0) Create document 
+    
+
+    pdf = canvas.Canvas(fileName)
+    pdf.setTitle(documentTitle)
+    count = 0
+    c = 0
+    object_list = []
+    #for i in  
+    for values in nats:
+        pdf.drawString(100 ,700+ c, str(values))
+        c +=20
+        
+    # for values in nats:
+    #     for key, value in values.items():
+            
+    #         pdf.drawString(100,500+count, key)
+    #         pdf.drawString(200,500+count, str(value))
+    #         count += 20
+    #         if key == 'source' and value != ['any'] or key == 'translated_source' and value != ['Original'] or key == 'destination' and value != ['any'] or key == 'translated_destination' and value != ['any'] or key == 'service' and value != ['any'] or key == 'translated_service' and value != ['Original']:
+    #             object_list.append(' '.join(map(str, value)))
+        
+    #     print('----- Objects and Groups ---------')
+    #     #pdf.drawString(700,100, object_list)
+    #     object_list = []
+    pdf.save()
 
 def run():
     read_nat()
