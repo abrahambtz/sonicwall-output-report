@@ -1,0 +1,2011 @@
+[
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0044-0800-c0eae48179ea",
+            "name": "Loopback Mysql",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.45"
+            },
+            "service": {
+                "name": "mysql false"
+            },
+            "translated_service": {
+                "name": "MySQL"
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003b-0800-c0eae48179ea",
+            "name": "NAT_Castor_Interna",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Monitoreo_Castor"
+            },
+            "service": {
+                "name": "Servicio_Castor"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0039-0800-c0eae48179ea",
+            "name": "loopbackFTP",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Archivos de Quique"
+            },
+            "service": {
+                "name": "Servicio_Archivos"
+            },
+            "translated_service": {
+                "name": "FTP"
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0016-0800-c0eae48179ea",
+            "name": "Interna Pandora X2",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.160_Pandora"
+            },
+            "service": {
+                "name": "8085_TCP"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0028-0800-c0eae48179ea",
+            "name": "Servidor FTP",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "175.16.20.199_FTP"
+            },
+            "service": {
+                "group": "1830_TCP-UDP"
+            },
+            "translated_service": {
+                "name": "21"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0068-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "name": "SFTP-Falso"
+            },
+            "translated_service": {
+                "name": "SFTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0038-0800-c0eae48179ea",
+            "name": "Archivos _Publicados",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Archivos de Quique"
+            },
+            "service": {
+                "name": "Servicio_Archivos"
+            },
+            "translated_service": {
+                "name": "FTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003c-0800-c0eae48179ea",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "172.17.101.23_Roberto"
+            },
+            "service": {
+                "name": "8888_Falso"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-003e-0800-c0eae48179ea",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "10.0.10.21_FTP_Sergio"
+            },
+            "service": {
+                "name": "Puertoprueba"
+            },
+            "translated_service": {
+                "name": "FTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0035-0800-c0eae48179ea",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X1",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X1 IP"
+            },
+            "translated_destination": {
+                "name": "172.17.100.51"
+            },
+            "service": {
+                "name": "tcp3131"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0047-0800-c0eae48179ea",
+            "name": "OpenNAC",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "ip_192.168.64.3"
+            },
+            "service": {
+                "name": "FakeSSH"
+            },
+            "translated_service": {
+                "name": "SSH"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0036-0800-c0eae48179ea",
+            "name": "Laboratorio",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X1",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X1 IP"
+            },
+            "translated_destination": {
+                "name": "Sonic_172.17.100.175"
+            },
+            "service": {
+                "name": "9193_TCP"
+            },
+            "translated_service": {
+                "name": "HTTPS"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0045-0800-c0eae48179ea",
+            "name": "MYSQL",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.45"
+            },
+            "service": {
+                "name": "mysql false"
+            },
+            "translated_service": {
+                "name": "MySQL"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0037-0800-c0eae48179ea",
+            "name": "WebServer45",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "WebServer45"
+            },
+            "service": {
+                "name": "8063_CursoEnrique"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0032-0800-c0eae48179ea",
+            "name": "Prueba1",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "Roberto"
+            },
+            "service": {
+                "name": "Puertoprueba"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0018-0800-c0eae48179ea",
+            "name": "externa pandora x2",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.160_Pandora"
+            },
+            "service": {
+                "name": "8085_TCP"
+            },
+            "translated_service": {
+                "name": "HTTP"
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0021-0800-c0eae48179ea",
+            "name": "loopvideoconferencia",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Vlan-SISA"
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "172.17.100.18_Huawei"
+            },
+            "service": {
+                "group": "ZoomPorts"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002c-0800-c0eae48179ea",
+            "name": "loopvideoconferencia2.0",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Vlan-SISA"
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.238_LifeSize"
+            },
+            "service": {
+                "group": "ZoomPorts"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-005f-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "name": "7000-TCP"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0041-0800-c0eae48179ea",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Monitoreo_Castor"
+            },
+            "service": {
+                "name": "SSH"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0017-0800-c0eae48179ea",
+            "name": "Interna Pandora x4",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.160_Pandora"
+            },
+            "service": {
+                "name": "8085_TCP"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000c-0800-c0eae48179ea",
+            "name": "Internas Conference",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "172.17.50.5_Conference"
+            },
+            "service": {
+                "name": "HTTP"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0005-0800-c0eae48179ea",
+            "name": "Internas ScreenConnect X4 ",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "manual": 67
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.32_ScreenConnect"
+            },
+            "service": {
+                "group": "8040-8041_TCP/UDP"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0059-0800-c0eae48179ea",
+            "name": "loopback",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "group": "Contscore2"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004c-0800-c0eae48179ea",
+            "name": "Loopback_Contscore",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "group": "ContscoreServices"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0006-0800-c0eae48179ea",
+            "name": "Internas ScreenConnect X2",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Redes - Sisa"
+            },
+            "translated_source": {
+                "name": "X2 IP"
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.32_ScreenConnect"
+            },
+            "service": {
+                "group": "8040-8041_TCP/UDP"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0009-0800-c0eae48179ea",
+            "name": "Internas Reverse Proxy Edge GW",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Vlan-SISA"
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "175.16.20.252_Reverse Proxy Edge Gateway"
+            },
+            "service": {
+                "group": "Shoretel Client Connect"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0007-0800-c0eae48179ea",
+            "name": "Internos Mitel-Client",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "Vlan-SISA"
+            },
+            "translated_source": {
+                "name": "38.123.70.130_X4 IP Wan"
+            },
+            "destination": {
+                "name": "38.123.70.130_X4 IP Wan"
+            },
+            "translated_destination": {
+                "name": "175.16.20.253_Turn Edge Gateway"
+            },
+            "service": {
+                "group": "Shoretel Client Connect"
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0072-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Milestone_192.168.64.34"
+            },
+            "service": {
+                "name": "Milestone_64.34_TCP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0070-0800-c0eae48179ea",
+            "name": "FTP",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.32_ScreenConnect"
+            },
+            "service": {
+                "name": "FTP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002e-0800-c0eae48179ea",
+            "name": "Synology Surveillance",
+            "enable": true,
+            "comment": "Synology Surveillance Test",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Synology"
+            },
+            "service": {
+                "group": "Synology_Surveillance"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0055-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "name": "5000_TCP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0057-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "name": "4000TCP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-005b-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "name": "7000-TCP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0058-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "pool_38.123.70.130"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "group": "Contscore2"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004b-0800-c0eae48179ea",
+            "name": "CONTSCORE",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "CONTSCORE SERVER"
+            },
+            "service": {
+                "group": "ContscoreServices"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0004-0800-c0eae48179ea",
+            "name": "ScreenConnect X4",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.32_ScreenConnect"
+            },
+            "service": {
+                "group": "8040-8041_TCP/UDP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0024-0800-c0eae48179ea",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X1",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X1 IP"
+            },
+            "translated_destination": {
+                "name": "175.16.20.10_GMS"
+            },
+            "service": {
+                "name": "8443_TCP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-005d-0800-c0eae48179ea",
+            "name": "PalmaPruebaFTP",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "ServerPalmaFTP"
+            },
+            "service": {
+                "name": "21"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0054-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "Halo_172.16.207.219"
+            },
+            "service": {
+                "name": "2302"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0048-0800-c0eae48179ea",
+            "name": "OpenNAC2",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "ip_192.168.64.1"
+            },
+            "service": {
+                "name": "TCP_41443"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0040-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "Monitoreo_Castor"
+            },
+            "service": {
+                "name": "SSH"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002a-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "175.16.20.254_RAST_EdgeGateway"
+            },
+            "service": {
+                "name": "HTTPS"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0019-0800-c0eae48179ea",
+            "name": "externa pandora x4",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.160_Pandora"
+            },
+            "service": {
+                "name": "8085_TCP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000d-0800-c0eae48179ea",
+            "name": "Conference",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "172.17.50.5_Conference"
+            },
+            "service": {
+                "name": "HTTP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0060-0800-c0eae48179ea",
+            "name": "MilestoneNAT",
+            "enable": true,
+            "comment": "Milestone Mobile",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "Milestone_192.168.64.34"
+            },
+            "service": {
+                "name": "Milestone_64.34_TCP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0002-0800-c0eae48179ea",
+            "name": "GMS X1",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "175.16.20.10_GMS"
+            },
+            "service": {
+                "group": "Syslog"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0065-0800-c0eae48179ea",
+            "name": "Prueba_DLP",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "38.123.70.132_Pool_DLP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.71_DLP"
+            },
+            "service": {
+                "group": "Servicios_DLP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0003-0800-c0eae48179ea",
+            "name": "ScreenConnect",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.32_ScreenConnect"
+            },
+            "service": {
+                "group": "8040-8041_TCP/UDP"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000b-0800-c0eae48179ea",
+            "name": "Mobility",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "172.17.100.20_Mobility"
+            },
+            "service": {
+                "group": "Mobility"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000f-0800-c0eae48179ea",
+            "name": "Outbound X1 VideoConferencia",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "172.17.100.18_Huawei"
+            },
+            "service": {
+                "group": "ZoomPorts"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-000a-0800-c0eae48179ea",
+            "name": "Reverse Proxy Edge GW",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X4 IP"
+            },
+            "translated_destination": {
+                "name": "175.16.20.252_Reverse Proxy Edge Gateway"
+            },
+            "service": {
+                "group": "Shoretel Client Connect"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0008-0800-c0eae48179ea",
+            "name": "Mitel-Client",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X4",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "38.123.70.130_X4 IP Wan"
+            },
+            "translated_destination": {
+                "name": "175.16.20.253_Turn Edge Gateway"
+            },
+            "service": {
+                "group": "Shoretel Client Connect"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-002b-0800-c0eae48179ea",
+            "name": "Outbound X2 VideoConferencia",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "X2",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "X2 IP"
+            },
+            "translated_destination": {
+                "name": "192.168.64.238_LifeSize"
+            },
+            "service": {
+                "group": "ZoomPorts"
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006f-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "Swell_192.168.1.0"
+            },
+            "translated_source": {
+                "name": "LAN Swell_192.168.74.1"
+            },
+            "destination": {
+                "name": "Buro_207.248.70.0"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0067-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "Global_192.168.41.0"
+            },
+            "translated_source": {
+                "name": "X0 IP"
+            },
+            "destination": {
+                "group": "SucursalesAcerosOcotlan"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006a-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "Swell_192.168.1.0"
+            },
+            "translated_source": {
+                "name": "LAN Swell_192.168.74.1"
+            },
+            "destination": {
+                "name": "Buro Credito_128.9.0.0"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-006b-0800-c0eae48179ea",
+            "name": "",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "name": "Vlan-8"
+            },
+            "translated_source": {
+                "name": "LAN Swell_192.168.74.1"
+            },
+            "destination": {
+                "group": "VPN_Buro de credito_Remota"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-004a-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "PalmaVPN_Remota"
+            },
+            "translated_source": {
+                "name": "X0 IP"
+            },
+            "destination": {
+                "name": "Lilico_192.168.0.2"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0056-0800-c0eae48179ea",
+            "name": "SucursalesAcerosOcotlan",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "NATSucursalesAcerosOcotlan"
+            },
+            "translated_source": {
+                "name": "X0 IP"
+            },
+            "destination": {
+                "group": "SucursalesAcerosOcotlan"
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0069-0800-c0eae48179ea",
+            "name": "",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "group": "VPN_Buro de credito_Remota"
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "LAN Swell_192.168.74.1"
+            },
+            "translated_destination": {
+                "name": "Swell_192.168.1.0"
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "nat_method": "sticky-ip"
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0011-0800-c0eae48179ea",
+            "name": "Outbound X4 Conference",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "manual": 107
+            },
+            "inbound": "any",
+            "outbound": "X4",
+            "source": {
+                "name": "172.17.50.5_Conference"
+            },
+            "translated_source": {
+                "name": "X4 IP"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0010-0800-c0eae48179ea",
+            "name": "Outbound X4-130 Turn Edge GW",
+            "enable": true,
+            "comment": "",
+            "priority": {
+                "manual": 108
+            },
+            "inbound": "any",
+            "outbound": "X4",
+            "source": {
+                "name": "175.16.20.253_Turn Edge Gateway"
+            },
+            "translated_source": {
+                "name": "38.123.70.130_X4 IP Wan"
+            },
+            "destination": {
+                "any": true
+            },
+            "translated_destination": {
+                "original": true
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            },
+            "source_port_remap": true
+        }
+    },
+    {
+        "ipv4": {
+            "uuid": "00000000-0000-0046-0800-c0eae48179ea",
+            "name": "AvocadoPruebas",
+            "enable": false,
+            "comment": "",
+            "priority": {
+                "auto": true
+            },
+            "inbound": "any",
+            "outbound": "any",
+            "source": {
+                "any": true
+            },
+            "translated_source": {
+                "original": true
+            },
+            "destination": {
+                "name": "PublicacionAvocadoIPublica"
+            },
+            "translated_destination": {
+                "name": "ServerAvocadoLocal"
+            },
+            "service": {
+                "any": true
+            },
+            "translated_service": {
+                "original": true
+            }
+        }
+    }
+]
